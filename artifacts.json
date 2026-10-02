@@ -4,49 +4,56 @@
     "ghost_class": "Class IV",
     "form": "Full Torso Animator",
     "description": "Recovered from a sealed archaeological display. The mask emits unstable psychokinetic readings and appears unusually responsive to nearby human voices.",
-    "symbol": "MASK"
+    "symbol": "MASK",
+    "image": ""
   },
   {
     "name": "Possessed Clock",
     "ghost_class": "Class III",
     "form": "Full Torso Animator",
     "description": "An antique clock associated with repeated time-loss reports. Residual energy remains strongest around the winding mechanism.",
-    "symbol": "TIME"
+    "symbol": "TIME",
+    "image": ""
   },
   {
     "name": "Ectoplasmic Idol",
     "ghost_class": "Class V",
     "form": "Full Torso Animator",
     "description": "A carved idol coated in persistent ectoplasmic residue. Activity increases when the object is moved away from its original resting place.",
-    "symbol": "IDOL"
+    "symbol": "IDOL",
+    "image": ""
   },
   {
     "name": "Cursed Music Box",
     "ghost_class": "Class IV",
     "form": "Full Torso Animator",
     "description": "A damaged music box producing anomalous readings even while mechanically inactive. Strong psychokinetic energy remains trapped inside the mechanism.",
-    "symbol": "MUSIC"
+    "symbol": "MUSIC",
+    "image": ""
   },
   {
     "name": "Spectral Lens",
     "ghost_class": "Class II",
     "form": "Full Torso Animator",
     "description": "An unusual glass lens recovered near a high-energy manifestation. When exposed to strong PKE fields, its surface develops a faint internal glow.",
-    "symbol": "LENS"
+    "symbol": "LENS",
+    "image": ""
   },
   {
     "name": "Unknown Entity",
     "ghost_class": "Class I",
     "form": "Full Torso Animator",
     "description": "Scan data remains incomplete. Additional readings are required before a complete profile can be constructed.",
-    "symbol": "????"
+    "symbol": "????",
+    "image": ""
   },
   {
     "name": "Bellhop Phantom",
     "ghost_class": "Class V",
     "form": "Full Torso Animator",
     "description": "This highly active manifestation has been repeatedly observed moving through the upper floors of an old hotel. Witnesses report sudden drops in temperature, flickering lights, slamming service doors, and the sound of a brass bell ringing even when no one is near the front desk. Initial PKE readings suggest the entity is strongly bound to the building and becomes more aggressive when pursued. It is capable of manipulating small objects, disrupting electrical equipment, and briefly appearing in reflective surfaces before vanishing. Extended scanning indicates that the phantom follows a repeating route through several hallways, but the pattern changes whenever it detects a nearby investigator. Approach with caution and maintain continuous PKE monitoring until the entity is contained.",
-    "symbol": "BELL"
+    "symbol": "BELL",
+    "image": ""
   },
   {
     "name": "Corner Creeper",
@@ -54,5 +61,6 @@
     "form": "Manifestation of Fear",
     "description": "This entity feeds off of fear and tends to prefer hiding around corners. Unlike most entities of its type, Corner Creepers have physical bodies that can contort to any shape, allowing them to fit around corners that would otherwise be impossible. Once spotted, they retaliate by emitting an anomalous fog of pure darkness. Analysis shows the fog to be atomically the same as oxygen, however no light source whatsoever can travel through the particles. The darkness has a thick, movement impairing effect - yet is completely breathable. Descriptions of this fog are similar to the ninth plague in the book of Exodus.",
     "symbol": "CORCRE"
+    "image": ""
   }
 ]
