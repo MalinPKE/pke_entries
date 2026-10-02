@@ -40,12 +40,12 @@
     "image": ""
   },
   {
-    "name": "Unknown Entity",
-    "ghost_class": "Class I",
-    "form": "Full Torso Animator",
-    "description": "Scan data remains incomplete. Additional readings are required before a complete profile can be constructed.",
-    "symbol": "????",
-    "image": ""
+    "name": "Synthetic",
+    "ghost_class": "Class III",
+    "form": "Unnatural Focused Repeater",
+    "description": "Synthetics are commonly found in abandoned/older factories and industrial plants as hostile free-standing human form entities. Shapes and sizes vary, with appenndages often non symmetrical and distorted. Synthetics are known to attack at the sight of humans by charging and enveloping the victim. Entities are covered in material with powerfully toxic and hazardous chemicals. They are frail but are known to manifest in hoardes, much like vermin they multiply quickly. Analysis of their internal material/skin prove impossible. Signatures can not be compared to anything of this world, or anything not of this world.",
+    "symbol": "SYNTHEITC",
+    "image": "images/synthetic.png"
   },
   {
     "name": "Bellhop Phantom",
@@ -57,9 +57,9 @@
   },
   {
     "name": "Corner Creeper",
-    "ghost_class": "Class III",
+    "ghost_class": "Class V",
     "form": "Manifestation of Fear",
-    "description": "This entity feeds off of fear and tends to prefer hiding around corners. Unlike most entities of its type, Corner Creepers have physical bodies that can contort to any shape, allowing them to fit around corners that would otherwise be impossible. Once spotted, they retaliate by emitting an anomalous fog of pure darkness. Analysis shows the fog to be atomically the same as oxygen, however no light source whatsoever can travel through the particles. The darkness has a thick, movement impairing effect - yet is completely breathable. Descriptions of this fog are similar to the ninth plague in the book of Exodus.",
+    "description": "This entity feeds off of fear and tends to prefer hiding around corners. Unlike most ectoplasmic entities of its type, Corner Creepers have physical bodies that can contort to any shape, allowing them to fit around corners that would otherwise be impossible. Once spotted, they retaliate by emitting an anomalous fog of pure darkness. Analysis shows the fog to be atomically the same as oxygen, however no light source whatsoever can travel through the particles. The darkness has a thick, movement impairing effect - yet is completely breathable. Descriptions of this fog are similar to the ninth plague in the book of Exodus.",
     "symbol": "CORCRE",
     "image": "images/corner_creeper.png"
   }
