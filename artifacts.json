@@ -62,5 +62,13 @@
     "description": "This entity feeds off of fear and tends to prefer hiding around corners. Unlike most ectoplasmic entities of its type, Corner Creepers have physical bodies that can contort to any shape, allowing them to fit around corners that would otherwise be impossible. Once spotted, they retaliate by emitting an anomalous fog of pure darkness. Analysis shows the fog to be atomically the same as oxygen, however no light source whatsoever can travel through the particles. The darkness has a thick, movement impairing effect - yet is completely breathable. Descriptions of this fog are similar to the ninth plague in the book of Exodus.",
     "symbol": "HOST",
     "image": "images/corner_creeper.png"
+  },
+  {
+    "name": "Requiescat",
+    "ghost_class": "Class II",
+    "form": "Anchored Monody Emitter",
+    "description": "Small statues such as this can be found near burial grounds and gravesites. Hushed whispers and melodical somber poetry can often be heard coming from the statue. Entities tend to dematerialize when out of sight, appearing somewhere nearby. Mapping out several manifestation locations of a single Requiescat entity show a pattern of circling a single area. Origins are unkown, and more thorough testing is difficult due to entities alluding sample extraction. These statues are useful as warning signs of highly psychokinetic activity zones.",
+    "symbol": "safe",
+    "image": "images/prayer.png"
   }
 ]
