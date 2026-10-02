@@ -61,6 +61,6 @@
     "form": "Manifestation of Fear",
     "description": "This entity feeds off of fear and tends to prefer hiding around corners. Unlike most entities of its type, Corner Creepers have physical bodies that can contort to any shape, allowing them to fit around corners that would otherwise be impossible. Once spotted, they retaliate by emitting an anomalous fog of pure darkness. Analysis shows the fog to be atomically the same as oxygen, however no light source whatsoever can travel through the particles. The darkness has a thick, movement impairing effect - yet is completely breathable. Descriptions of this fog are similar to the ninth plague in the book of Exodus.",
     "symbol": "CORCRE"
-    "image": ""
+    "image": "https://github.com/MalinPKE/pke_entries/blob/main/corner_creeper.png?raw=true"
   }
 ]
