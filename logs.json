@@ -1,0 +1,12 @@
+[
+  {
+    "logname": "Example Investigation Log",
+    "date": "10/02/2026",
+    "logdescription": "This is an example log entry. Replace this text with the full investigation notes or report."
+  },
+  {
+    "logname": "Containment Check",
+    "date": "10/01/2026",
+    "logdescription": "Containment grid inspection completed. No unusual readings were recorded."
+  }
+]
