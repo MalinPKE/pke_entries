@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "tables": {
+    "InteractiveEvents": [
+      {
+        "event_id": "ben",
+        "enabled": true,
+        "name": "Ben conversation",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 10,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
+      },
+      {
+        "event_id": "creation",
+        "enabled": true,
+        "name": "Creation keyword event",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 50,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
+      },
+      {
+        "event_id": "your_event",
+        "enabled": false,
+        "name": "Copy this conversation template",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 100,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
+      },
+      {
+        "event_id": "sword_example",
+        "enabled": false,
+        "name": "Haunted Sword scan example",
+        "mode": "pke",
+        "program_id": "sword",
+        "initial_state": "searching",
+        "priority": 20,
+        "reset_policy": "manual_only",
+        "state_storage": "disk"
+      }
+    ],
+    "EventChannels": [
+      {
+        "event_id": "ben",
+        "channel_id": 0
+      },
+      {
+        "event_id": "creation",
+        "channel_id": 5
+      },
+      {
+        "event_id": "your_event",
+        "channel_id": 4
+      },
+      {
+        "event_id": "your_event",
+        "channel_id": 6
+      }
+    ],
+    "EventStates": [
+      {
+        "event_id": "ben",
+        "state_id": "idle",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "ben",
+        "state_id": "active",
+        "timer_kind": "idle",
+        "timeout_s": 6,
+        "timeout_operator": "gt",
+        "reset_on_voice": true,
+        "pause_recording": true,
+        "pause_actions": true
+      },
+      {
+        "event_id": "creation",
+        "state_id": "idle",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "your_event",
+        "state_id": "idle",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "your_event",
+        "state_id": "contact",
+        "timer_kind": "idle",
+        "timeout_s": 10,
+        "timeout_operator": "gte",
+        "reset_on_voice": true,
+        "pause_recording": true,
+        "pause_actions": true
+      },
+      {
+        "event_id": "sword_example",
+        "state_id": "searching",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "sword_example",
+        "state_id": "found",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      }
+    ],
+    "EventRules": [
+      {
+        "rule_id": "ben_goodbye",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "active",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "ben_bye",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "ben_close",
+        "on_success_state": "idle",
+        "on_failure_state": "idle",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ben_forced_yes",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "active",
+        "trigger": "voice_input",
+        "priority": 20,
+        "keyword_group": "ben_yes",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "ben_yes_only",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ben_answer",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "active",
+        "trigger": "voice_input",
+        "priority": 100,
+        "keyword_group": null,
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "ben_answer",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ben_open",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "ben_name",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 0.6,
+        "action_set": "ben_open",
+        "on_success_state": "active",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ben_timeout",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "active",
+        "trigger": "idle_timeout",
+        "priority": 10,
+        "keyword_group": null,
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "ben_close",
+        "on_success_state": "idle",
+        "on_failure_state": "idle",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "creation_keyword",
+        "event_id": "creation",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "creation",
+        "activity_min": 80,
+        "activity_max": 100,
+        "probability": 0.2,
+        "action_set": "creation_response",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "your_open",
+        "event_id": "your_event",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "your_keyword",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "your_response",
+        "on_success_state": "contact",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "your_reply",
+        "event_id": "your_event",
+        "enabled": true,
+        "from_state": "contact",
+        "trigger": "voice_input",
+        "priority": 100,
+        "keyword_group": null,
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 0.5,
+        "action_set": "your_response",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 2,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "your_timeout",
+        "event_id": "your_event",
+        "enabled": true,
+        "from_state": "contact",
+        "trigger": "idle_timeout",
+        "priority": 10,
+        "keyword_group": null,
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "your_close",
+        "on_success_state": "idle",
+        "on_failure_state": "idle",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "sword_scan",
+        "event_id": "sword_example",
+        "enabled": true,
+        "from_state": "searching",
+        "trigger": "scan_press",
+        "priority": 10,
+        "keyword_group": null,
+        "activity_min": 98,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "sword_discovery",
+        "on_success_state": "found",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 1,
+        "consume_input": true
+      }
+    ],
+    "EventActions": [
+      {
+        "action_set": "ben_open",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "ben",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "ben_close",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "ben_hangup",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "ben_yes_only",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "ben_yes",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "ben_answer",
+        "step": 1,
+        "action_type": "play_pool",
+        "sound_id": null,
+        "response_pool": "ben_answers",
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "creation_response",
+        "step": 1,
+        "action_type": "play_pool",
+        "sound_id": null,
+        "response_pool": "creation",
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "your_response",
+        "step": 1,
+        "action_type": "play_pool",
+        "sound_id": null,
+        "response_pool": "your_pool",
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "your_close",
+        "step": 1,
+        "action_type": "display_message",
+        "sound_id": null,
+        "response_pool": null,
+        "message_text": "CONTACT LOST",
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": 1,
+        "required": true
+      },
+      {
+        "action_set": "sword_discovery",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "sword_scan",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": false
+      },
+      {
+        "action_set": "sword_discovery",
+        "step": 2,
+        "action_type": "display_message",
+        "sound_id": null,
+        "response_pool": null,
+        "message_text": "ANOMALOUS OBJECT DETECTED",
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": 2,
+        "required": true
+      },
+      {
+        "action_set": "sword_discovery",
+        "step": 3,
+        "action_type": "unlock_entry",
+        "sound_id": null,
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": "haunted_sword",
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "sword_discovery",
+        "step": 4,
+        "action_type": "show_entry",
+        "sound_id": null,
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": "haunted_sword",
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      }
+    ],
+    "EventKeywords": [
+      {
+        "keyword_group": "ben_name",
+        "keyword": "ben"
+      },
+      {
+        "keyword_group": "ben_name",
+        "keyword": "benjamin"
+      },
+      {
+        "keyword_group": "ben_yes",
+        "keyword": "chocolate"
+      },
+      {
+        "keyword_group": "ben_yes",
+        "keyword": "ghost"
+      },
+      {
+        "keyword_group": "ben_yes",
+        "keyword": "gay"
+      },
+      {
+        "keyword_group": "ben_bye",
+        "keyword": "bye"
+      },
+      {
+        "keyword_group": "ben_bye",
+        "keyword": "goodbye"
+      },
+      {
+        "keyword_group": "creation",
+        "keyword": "creation"
+      },
+      {
+        "keyword_group": "your_keyword",
+        "keyword": "replace_me"
+      }
+    ],
+    "EventResponsePools": [
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_laugh",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_ugh",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_yes",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_no",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation1",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation2",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation3",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation4",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "your_pool",
+        "sound_id": "your_new_sound",
+        "weight": 1,
+        "selection_probability": 1
+      }
+    ]
+  }
+}

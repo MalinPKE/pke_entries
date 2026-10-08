@@ -1,0 +1,1212 @@
+{
+  "schema_version": 1,
+  "tables": {
+    "RadioSounds": [
+      {
+        "sound_id": "event_breath",
+        "enabled": true,
+        "asset_key": "event_breath",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_ciocarlia",
+        "enabled": true,
+        "asset_key": "event_ciocarlia",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_circle",
+        "enabled": true,
+        "asset_key": "event_circle",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "enabled": true,
+        "asset_key": "event_ecto_goggles",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_elevator",
+        "enabled": true,
+        "asset_key": "event_elevator",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_footsteps",
+        "enabled": true,
+        "asset_key": "event_footsteps",
+        "activity_min": 6,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_ingrate",
+        "enabled": true,
+        "asset_key": "event_ingrate",
+        "activity_min": 51,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_moan",
+        "enabled": true,
+        "asset_key": "event_moan",
+        "activity_min": 11,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "heavy_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_pig_noise",
+        "enabled": true,
+        "asset_key": "event_pig_noise",
+        "activity_min": 40,
+        "activity_max": 69,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "enabled": true,
+        "asset_key": "event_robotvoice",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 4
+      },
+      {
+        "sound_id": "event_uhoh",
+        "enabled": true,
+        "asset_key": "event_uhoh",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_whispering",
+        "enabled": true,
+        "asset_key": "event_whispering",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "enabled": true,
+        "asset_key": "long_ambienttv",
+        "activity_min": 10,
+        "activity_max": 49,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 5.0,
+        "duration_max_s": 20.0,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_birthright",
+        "enabled": true,
+        "asset_key": "long_birthright",
+        "activity_min": 50,
+        "activity_max": 79,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 5,
+        "duration_max_s": 15,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_black_slime",
+        "enabled": true,
+        "asset_key": "long_black_slime",
+        "activity_min": 29,
+        "activity_max": 59,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 2.0,
+        "duration_max_s": 8.0,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_call",
+        "enabled": true,
+        "asset_key": "long_call",
+        "activity_min": 19,
+        "activity_max": 49,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 9,
+        "duration_max_s": 21,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_pain",
+        "enabled": true,
+        "asset_key": "long_pain",
+        "activity_min": 70,
+        "activity_max": 89,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 7,
+        "duration_max_s": 20,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_sayings",
+        "enabled": true,
+        "asset_key": "long_sayings",
+        "activity_min": 50,
+        "activity_max": 79,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 8.0,
+        "duration_max_s": 12.0,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_voice4",
+        "enabled": true,
+        "asset_key": "long_voice4",
+        "activity_min": 5,
+        "activity_max": 29,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 7,
+        "duration_max_s": 12,
+        "effect_profile": "heavy_low",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_whiskey",
+        "enabled": true,
+        "asset_key": "long_whiskey",
+        "activity_min": 1,
+        "activity_max": 19,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 10,
+        "duration_max_s": 20,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice_devil",
+        "enabled": true,
+        "asset_key": "voice_devil",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice_imstillhere",
+        "enabled": true,
+        "asset_key": "voice_imstillhere",
+        "activity_min": 90,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "enabled": true,
+        "asset_key": "voice_pig_body",
+        "activity_min": 40,
+        "activity_max": 69,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "enabled": true,
+        "asset_key": "voice_ryan_hello",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice1",
+        "enabled": true,
+        "asset_key": "voice1",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice2",
+        "enabled": true,
+        "asset_key": "voice2",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice3",
+        "enabled": true,
+        "asset_key": "voice3",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "creation1",
+        "enabled": true,
+        "asset_key": "creation1",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "creation2",
+        "enabled": true,
+        "asset_key": "creation2",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "creation3",
+        "enabled": true,
+        "asset_key": "creation3",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "creation4",
+        "enabled": true,
+        "asset_key": "creation4",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben",
+        "enabled": true,
+        "asset_key": "ben",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_laugh",
+        "enabled": true,
+        "asset_key": "ben_laugh",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_ugh",
+        "enabled": true,
+        "asset_key": "ben_ugh",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_yes",
+        "enabled": true,
+        "asset_key": "ben_yes",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_no",
+        "enabled": true,
+        "asset_key": "ben_no",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_hangup",
+        "enabled": true,
+        "asset_key": "ben_hangup",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      }
+    ],
+    "RadioChannels": [
+      {
+        "channel_id": 0,
+        "enabled": true,
+        "theme": "Special cases / Ben",
+        "static_profile": "default",
+        "static_pitch_ratio": 1,
+        "static_gain": 1
+      },
+      {
+        "channel_id": 1,
+        "enabled": true,
+        "theme": "Short strange oddities",
+        "static_profile": "default",
+        "static_pitch_ratio": 1,
+        "static_gain": 1
+      },
+      {
+        "channel_id": 2,
+        "enabled": true,
+        "theme": "Longer, coherent, curious sounds",
+        "static_profile": "slightly_higher_pitch",
+        "static_pitch_ratio": 1.1,
+        "static_gain": 1
+      },
+      {
+        "channel_id": 3,
+        "enabled": true,
+        "theme": "Haunted music, whispers, mantras",
+        "static_profile": "slightly_lower_pitch",
+        "static_pitch_ratio": 0.9,
+        "static_gain": 0.9
+      },
+      {
+        "channel_id": 4,
+        "enabled": true,
+        "theme": "Spirit communication via microphone",
+        "static_profile": "less_scratchy_white_noise",
+        "static_pitch_ratio": 1.2,
+        "static_gain": 0.85
+      },
+      {
+        "channel_id": 5,
+        "enabled": true,
+        "theme": "Monsters and creatures",
+        "static_profile": "brown_noise",
+        "static_pitch_ratio": 0.8,
+        "static_gain": 1.1
+      },
+      {
+        "channel_id": 6,
+        "enabled": true,
+        "theme": "Demonic, evil voices and effects",
+        "static_profile": "low_monotonous_tones",
+        "static_pitch_ratio": 0.75,
+        "static_gain": 0.8
+      },
+      {
+        "channel_id": 7,
+        "enabled": true,
+        "theme": "Special events / strongest entities",
+        "static_profile": "quiet_static",
+        "static_pitch_ratio": 1,
+        "static_gain": 0.5
+      }
+    ],
+    "SoundChannels": [
+      {
+        "sound_id": "event_breath",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_breath",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_breath",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_ciocarlia",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_circle",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_circle",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "event_elevator",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_elevator",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_elevator",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_footsteps",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_footsteps",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_footsteps",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_ingrate",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_uhoh",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_uhoh",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_uhoh",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_birthright",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "long_call",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_call",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "long_call",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_pain",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "long_voice4",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_voice4",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_whiskey",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "ben",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_laugh",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_ugh",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_yes",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_no",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_hangup",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "creation1",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation2",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation3",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation4",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "voice_devil",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice_imstillhere",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_moan",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_moan",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_moan",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_pig_noise",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_whispering",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_whispering",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_whispering",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_black_slime",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_black_slime",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_sayings",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "voice1",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice1",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice2",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice2",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice3",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice3",
+        "channel_id": 4
+      }
+    ],
+    "EffectProfiles": [
+      {
+        "profile_id": "none",
+        "pitch_mode": "off",
+        "reverse_mode": "off",
+        "extra_static_mode": "off",
+        "fade_mode": "off",
+        "preserve_speech": false,
+        "pitch_ratio_min": 1,
+        "pitch_ratio_max": 1,
+        "reverse_probability": 0,
+        "static_probability": 0,
+        "fade_min_s": 0,
+        "fade_max_s": 0,
+        "definition": "No creative distortion. Snippet cuts still use the Settings microfade."
+      },
+      {
+        "profile_id": "fade",
+        "pitch_mode": "off",
+        "reverse_mode": "off",
+        "extra_static_mode": "off",
+        "fade_mode": "randomized",
+        "preserve_speech": false,
+        "pitch_ratio_min": 1,
+        "pitch_ratio_max": 1,
+        "reverse_probability": 0,
+        "static_probability": 0,
+        "fade_min_s": 0.5,
+        "fade_max_s": 2,
+        "definition": "Fade in and out. Fade duration range remains to be tuned."
+      },
+      {
+        "profile_id": "subtle_distortions",
+        "pitch_mode": "subtle_up_or_down",
+        "reverse_mode": "randomized",
+        "extra_static_mode": "randomized",
+        "fade_mode": "off",
+        "preserve_speech": false,
+        "pitch_ratio_min": 0.8,
+        "pitch_ratio_max": 1.2,
+        "reverse_probability": 0.2,
+        "static_probability": 0.4,
+        "fade_min_s": 0.5,
+        "fade_max_s": 0.9,
+        "definition": "Optional pitch shifts, reversal, and extra static. Do not force every effect each time."
+      },
+      {
+        "profile_id": "heavy_low",
+        "pitch_mode": "normal_or_lower",
+        "reverse_mode": "randomized",
+        "extra_static_mode": "randomized",
+        "fade_mode": "off",
+        "preserve_speech": false,
+        "pitch_ratio_min": 0.4,
+        "pitch_ratio_max": 1.0,
+        "reverse_probability": 0.22,
+        "static_probability": 0.6,
+        "fade_min_s": 0.5,
+        "fade_max_s": 0.8,
+        "definition": "Heavy randomized distortion. Final pitch ratio must never exceed 1.0."
+      },
+      {
+        "profile_id": "subtle_pitch_change",
+        "pitch_mode": "subtle",
+        "reverse_mode": "off",
+        "extra_static_mode": "light",
+        "fade_mode": "off",
+        "preserve_speech": true,
+        "pitch_ratio_min": 0.8,
+        "pitch_ratio_max": 1.2,
+        "reverse_probability": 0.0,
+        "static_probability": 0.2,
+        "fade_min_s": 0.5,
+        "fade_max_s": 1.0,
+        "definition": "Proposed profile: preserve voice clarity with light static and subtle pitch drift."
+      },
+      {
+        "profile_id": "heavy_distortions",
+        "pitch_mode": "heavy",
+        "reverse_mode": "randomized",
+        "extra_static_mode": "randomized",
+        "fade_mode": "randomized",
+        "preserve_speech": false,
+        "pitch_ratio_min": 0.5,
+        "pitch_ratio_max": 1.5,
+        "reverse_probability": 0.2,
+        "static_probability": 1.0,
+        "fade_min_s": 0.5,
+        "fade_max_s": 1.0,
+        "definition": "Heavier distortions and extra static always applied."
+      }
+    ],
+    "RadioSettings": [
+      {
+        "setting_key": "schema_version",
+        "value": 1,
+        "value_type": "integer",
+        "basis": "fixed",
+        "definition": "Version of these named-table definitions"
+      },
+      {
+        "setting_key": "activity_input_type",
+        "value": "integer_0_to_100",
+        "value_type": "enum",
+        "basis": "source",
+        "definition": "Activity bounds are inclusive. >5 becomes 6 through 100."
+      },
+      {
+        "setting_key": "ambient_selection_mode",
+        "value": "uniform_eligible",
+        "value_type": "enum",
+        "basis": "source",
+        "definition": "Equal odds across eligible ambient sounds, after optional repeat filtering."
+      },
+      {
+        "setting_key": "ambient_trigger_probability",
+        "value": 0.1,
+        "value_type": "probability",
+        "basis": "tune",
+        "definition": "Small chance specified, exact number not supplied. One global event roll."
+      },
+      {
+        "setting_key": "ambient_check_interval_s",
+        "value": 1,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Time between ambient event checks."
+      },
+      {
+        "setting_key": "ambient_gap_min_s",
+        "value": 150,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Randomized recovery gap after a foreground sound."
+      },
+      {
+        "setting_key": "ambient_gap_max_s",
+        "value": 450,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Maximum recovery gap. Must be at least the minimum."
+      },
+      {
+        "setting_key": "anti_repeat_history_count",
+        "value": 3,
+        "value_type": "integer",
+        "basis": "proposed",
+        "definition": "Avoid the last three ambient sound IDs when alternatives exist."
+      },
+      {
+        "setting_key": "anti_repeat_mode",
+        "value": "avoid_recent_with_fallback",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "If all eligible sounds are recent, choose uniformly from the full eligible pool."
+      },
+      {
+        "setting_key": "anti_repeat_scope",
+        "value": "ambient_only",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "Ben responses and Creation use their exact response-pool odds."
+      },
+      {
+        "setting_key": "robot_extra_repeat_probability",
+        "value": 0.5,
+        "value_type": "probability",
+        "basis": "tune",
+        "definition": "On success, choose 1, 2 or 3 extra plays uniformly. Otherwise one play total."
+      },
+      {
+        "setting_key": "robot_repeat_gap_min_s",
+        "value": 0.2,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Minimum pause between repetitions."
+      },
+      {
+        "setting_key": "robot_repeat_gap_max_s",
+        "value": 0.8,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Maximum pause between repetitions."
+      },
+      {
+        "setting_key": "snippet_cut_fade_ms",
+        "value": 15,
+        "value_type": "milliseconds",
+        "basis": "proposed",
+        "definition": "Tiny start/end fades to suppress clicks at random snippet cut points."
+      },
+      {
+        "setting_key": "snippet_length_policy",
+        "value": "cap_to_asset_length",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "If the source is shorter than the chosen duration, use available audio."
+      },
+      {
+        "setting_key": "snippet_start_policy",
+        "value": "uniform_valid_start",
+        "value_type": "enum",
+        "basis": "agreed",
+        "definition": "Choose duration first, then a random start that fits inside the source file."
+      },
+      {
+        "setting_key": "keyword_match_mode",
+        "value": "whole_word_casefold",
+        "value_type": "enum",
+        "basis": "agreed",
+        "definition": "Ignore capitalization and punctuation. Match whole words."
+      },
+      {
+        "setting_key": "voice_event_source",
+        "value": "push_to_talk_release",
+        "value_type": "enum",
+        "basis": "agreed",
+        "definition": "Hold SCAN to record. Evaluate voice_input when released."
+      },
+      {
+        "setting_key": "voice_input_requirement",
+        "value": "voice_detected",
+        "value_type": "enum",
+        "basis": "source",
+        "definition": "Require detected speech/vocal input, including untranscribed vocalizations."
+      },
+      {
+        "setting_key": "max_responses_per_input",
+        "value": 1,
+        "value_type": "integer",
+        "basis": "agreed",
+        "definition": "One rule outcome and at most one response sound per transmission."
+      },
+      {
+        "setting_key": "foreground_concurrency",
+        "value": 1,
+        "value_type": "integer",
+        "basis": "proposed",
+        "definition": "One major sound at a time, layered over the channel static bed."
+      },
+      {
+        "setting_key": "unlisted_voice_rules",
+        "value": "no_special_response",
+        "value_type": "enum",
+        "basis": "source",
+        "definition": "Themes for channels 4 and 6 do not invent keyword reactions absent from Files."
+      },
+      {
+        "setting_key": "ben_timeout_clock",
+        "value": "idle_waiting_for_voice",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "BenLifecycle defines when this clock starts, resets, and pauses."
+      },
+      {
+        "setting_key": "channel_change_playback",
+        "value": "fade_stop_current",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "Stop foreground playback and queued repeats when changing channels."
+      },
+      {
+        "setting_key": "missing_asset_policy",
+        "value": "skip_and_report",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "Skip missing audio. A failed Ben opening must not activate the session."
+      }
+    ]
+  }
+}

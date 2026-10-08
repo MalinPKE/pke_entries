@@ -1,0 +1,3409 @@
+{
+  "format": "pke-manager-project",
+  "version": 1,
+  "tables": {
+    "RadioSounds": [
+      {
+        "sound_id": "event_breath",
+        "enabled": true,
+        "asset_key": "event_breath",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_ciocarlia",
+        "enabled": true,
+        "asset_key": "event_ciocarlia",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_circle",
+        "enabled": true,
+        "asset_key": "event_circle",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "enabled": true,
+        "asset_key": "event_ecto_goggles",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_elevator",
+        "enabled": true,
+        "asset_key": "event_elevator",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_footsteps",
+        "enabled": true,
+        "asset_key": "event_footsteps",
+        "activity_min": 6,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_ingrate",
+        "enabled": true,
+        "asset_key": "event_ingrate",
+        "activity_min": 51,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_moan",
+        "enabled": true,
+        "asset_key": "event_moan",
+        "activity_min": 11,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "heavy_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_pig_noise",
+        "enabled": true,
+        "asset_key": "event_pig_noise",
+        "activity_min": 40,
+        "activity_max": 69,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "enabled": true,
+        "asset_key": "event_robotvoice",
+        "activity_min": 1,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 4
+      },
+      {
+        "sound_id": "event_uhoh",
+        "enabled": true,
+        "asset_key": "event_uhoh",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "event_whispering",
+        "enabled": true,
+        "asset_key": "event_whispering",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "enabled": true,
+        "asset_key": "long_ambienttv",
+        "activity_min": 10,
+        "activity_max": 49,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 5.0,
+        "duration_max_s": 20.0,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_birthright",
+        "enabled": true,
+        "asset_key": "long_birthright",
+        "activity_min": 50,
+        "activity_max": 79,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 5,
+        "duration_max_s": 15,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_black_slime",
+        "enabled": true,
+        "asset_key": "long_black_slime",
+        "activity_min": 29,
+        "activity_max": 59,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 2.0,
+        "duration_max_s": 8.0,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_call",
+        "enabled": true,
+        "asset_key": "long_call",
+        "activity_min": 19,
+        "activity_max": 49,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 9,
+        "duration_max_s": 21,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_pain",
+        "enabled": true,
+        "asset_key": "long_pain",
+        "activity_min": 70,
+        "activity_max": 89,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 7,
+        "duration_max_s": 20,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_sayings",
+        "enabled": true,
+        "asset_key": "long_sayings",
+        "activity_min": 50,
+        "activity_max": 79,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 8.0,
+        "duration_max_s": 12.0,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_voice4",
+        "enabled": true,
+        "asset_key": "long_voice4",
+        "activity_min": 5,
+        "activity_max": 29,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 7,
+        "duration_max_s": 12,
+        "effect_profile": "heavy_low",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "long_whiskey",
+        "enabled": true,
+        "asset_key": "long_whiskey",
+        "activity_min": 1,
+        "activity_max": 19,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 10,
+        "duration_max_s": 20,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice_devil",
+        "enabled": true,
+        "asset_key": "voice_devil",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice_imstillhere",
+        "enabled": true,
+        "asset_key": "voice_imstillhere",
+        "activity_min": 90,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "enabled": true,
+        "asset_key": "voice_pig_body",
+        "activity_min": 40,
+        "activity_max": 69,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "enabled": true,
+        "asset_key": "voice_ryan_hello",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice1",
+        "enabled": true,
+        "asset_key": "voice1",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice2",
+        "enabled": true,
+        "asset_key": "voice2",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "voice3",
+        "enabled": true,
+        "asset_key": "voice3",
+        "activity_min": 20,
+        "activity_max": 49,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "creation1",
+        "enabled": true,
+        "asset_key": "creation1",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "creation2",
+        "enabled": true,
+        "asset_key": "creation2",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "creation3",
+        "enabled": true,
+        "asset_key": "creation3",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "creation4",
+        "enabled": true,
+        "asset_key": "creation4",
+        "activity_min": 80,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_pitch_change",
+        "ambient_enabled": true,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben",
+        "enabled": true,
+        "asset_key": "ben",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_laugh",
+        "enabled": true,
+        "asset_key": "ben_laugh",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_ugh",
+        "enabled": true,
+        "asset_key": "ben_ugh",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_yes",
+        "enabled": true,
+        "asset_key": "ben_yes",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_no",
+        "enabled": true,
+        "asset_key": "ben_no",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      },
+      {
+        "sound_id": "ben_hangup",
+        "enabled": true,
+        "asset_key": "ben_hangup",
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "ambient_enabled": false,
+        "voice_interactive": true,
+        "plays_min": 1,
+        "plays_max": 1
+      }
+    ],
+    "RadioChannels": [
+      {
+        "channel_id": 0,
+        "enabled": true,
+        "theme": "Special cases / Ben",
+        "static_profile": "default",
+        "static_pitch_ratio": 1,
+        "static_gain": 1
+      },
+      {
+        "channel_id": 1,
+        "enabled": true,
+        "theme": "Short strange oddities",
+        "static_profile": "default",
+        "static_pitch_ratio": 1,
+        "static_gain": 1
+      },
+      {
+        "channel_id": 2,
+        "enabled": true,
+        "theme": "Longer, coherent, curious sounds",
+        "static_profile": "slightly_higher_pitch",
+        "static_pitch_ratio": 1.1,
+        "static_gain": 1
+      },
+      {
+        "channel_id": 3,
+        "enabled": true,
+        "theme": "Haunted music, whispers, mantras",
+        "static_profile": "slightly_lower_pitch",
+        "static_pitch_ratio": 0.9,
+        "static_gain": 0.9
+      },
+      {
+        "channel_id": 4,
+        "enabled": true,
+        "theme": "Spirit communication via microphone",
+        "static_profile": "less_scratchy_white_noise",
+        "static_pitch_ratio": 1.2,
+        "static_gain": 0.85
+      },
+      {
+        "channel_id": 5,
+        "enabled": true,
+        "theme": "Monsters and creatures",
+        "static_profile": "brown_noise",
+        "static_pitch_ratio": 0.8,
+        "static_gain": 1.1
+      },
+      {
+        "channel_id": 6,
+        "enabled": true,
+        "theme": "Demonic, evil voices and effects",
+        "static_profile": "low_monotonous_tones",
+        "static_pitch_ratio": 0.75,
+        "static_gain": 0.8
+      },
+      {
+        "channel_id": 7,
+        "enabled": true,
+        "theme": "Special events / strongest entities",
+        "static_profile": "quiet_static",
+        "static_pitch_ratio": 1,
+        "static_gain": 0.5
+      }
+    ],
+    "SoundChannels": [
+      {
+        "sound_id": "event_breath",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_breath",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_breath",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_ciocarlia",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_circle",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_circle",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "event_elevator",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_elevator",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_elevator",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_footsteps",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_footsteps",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_footsteps",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_ingrate",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_uhoh",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_uhoh",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_uhoh",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_birthright",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "long_call",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_call",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "long_call",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_pain",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "long_voice4",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_voice4",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_whiskey",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "ben",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_laugh",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_ugh",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_yes",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_no",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben_hangup",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "creation1",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation2",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation3",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation4",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "voice_devil",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice_imstillhere",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_moan",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_moan",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_moan",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_pig_noise",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_whispering",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_whispering",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_whispering",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_black_slime",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_black_slime",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_sayings",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "voice1",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice1",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice2",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice2",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice3",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice3",
+        "channel_id": 4
+      }
+    ],
+    "VoiceRules": [
+      {
+        "rule_id": "ben_close_words",
+        "channel_id": 0,
+        "event": "voice_input",
+        "priority": 10,
+        "ben_state_required": "active",
+        "match_mode": "keyword_any",
+        "keyword_group": "ben_bye",
+        "trigger_probability": 1,
+        "response_pool": "ben_close",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "ben_state_after_play": "idle",
+        "consume_on_match": true
+      },
+      {
+        "rule_id": "ben_force_yes",
+        "channel_id": 0,
+        "event": "voice_input",
+        "priority": 20,
+        "ben_state_required": "active",
+        "match_mode": "keyword_any",
+        "keyword_group": "ben_yes",
+        "trigger_probability": 1,
+        "response_pool": "ben_yes_only",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "ben_state_after_play": "unchanged",
+        "consume_on_match": true
+      },
+      {
+        "rule_id": "ben_random_answer",
+        "channel_id": 0,
+        "event": "voice_input",
+        "priority": 100,
+        "ben_state_required": "active",
+        "match_mode": "voice_detected",
+        "keyword_group": null,
+        "trigger_probability": 1,
+        "response_pool": "ben_answers",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "ben_state_after_play": "unchanged",
+        "consume_on_match": true
+      },
+      {
+        "rule_id": "ben_open",
+        "channel_id": 0,
+        "event": "voice_input",
+        "priority": 10,
+        "ben_state_required": "idle",
+        "match_mode": "keyword_any",
+        "keyword_group": "ben_name",
+        "trigger_probability": 0.6,
+        "response_pool": "ben_open",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "ben_state_after_play": "active",
+        "consume_on_match": true
+      },
+      {
+        "rule_id": "ben_close_silence",
+        "channel_id": 0,
+        "event": "idle_timeout",
+        "priority": 10,
+        "ben_state_required": "active",
+        "match_mode": "timer",
+        "keyword_group": null,
+        "trigger_probability": 1,
+        "response_pool": "ben_close",
+        "timeout_s": 6,
+        "timeout_operator": "gt",
+        "ben_state_after_play": "idle",
+        "consume_on_match": true
+      },
+      {
+        "rule_id": "creation_response",
+        "channel_id": 5,
+        "event": "voice_input",
+        "priority": 10,
+        "ben_state_required": "any",
+        "match_mode": "keyword_any",
+        "keyword_group": "creation",
+        "trigger_probability": 0.2,
+        "response_pool": "creation",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "ben_state_after_play": "unchanged",
+        "consume_on_match": true
+      }
+    ],
+    "ResponsePools": [
+      {
+        "pool_id": "ben_open",
+        "sound_id": "ben",
+        "weight": 1
+      },
+      {
+        "pool_id": "ben_close",
+        "sound_id": "ben_hangup",
+        "weight": 1
+      },
+      {
+        "pool_id": "ben_yes_only",
+        "sound_id": "ben_yes",
+        "weight": 1
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_laugh",
+        "weight": 1
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_ugh",
+        "weight": 1
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_yes",
+        "weight": 1
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_no",
+        "weight": 1
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation1",
+        "weight": 1
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation2",
+        "weight": 1
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation3",
+        "weight": 1
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation4",
+        "weight": 1
+      }
+    ],
+    "VoiceKeywords": [
+      {
+        "keyword_group": "ben_name",
+        "keyword": "ben"
+      },
+      {
+        "keyword_group": "ben_name",
+        "keyword": "benjamin"
+      },
+      {
+        "keyword_group": "ben_yes",
+        "keyword": "chocolate"
+      },
+      {
+        "keyword_group": "ben_yes",
+        "keyword": "ghost"
+      },
+      {
+        "keyword_group": "ben_yes",
+        "keyword": "gay"
+      },
+      {
+        "keyword_group": "ben_bye",
+        "keyword": "bye"
+      },
+      {
+        "keyword_group": "ben_bye",
+        "keyword": "goodbye"
+      },
+      {
+        "keyword_group": "creation",
+        "keyword": "creation"
+      }
+    ],
+    "BenLifecycle": [
+      {
+        "setting": "initial_state",
+        "value": "idle",
+        "basis": "Original Ben rules"
+      },
+      {
+        "setting": "state_change_trigger",
+        "value": "successful_playback_complete",
+        "basis": "Agreed: opening requires Ben to actually play"
+      },
+      {
+        "setting": "silence_timer_start",
+        "value": "after_response_playback",
+        "basis": "Timer starts after opening sound and after each response"
+      },
+      {
+        "setting": "silence_timer_reset",
+        "value": "detected_voice_input",
+        "basis": "Silence means no voice input, not an empty recognition result"
+      },
+      {
+        "setting": "silence_timer_pause",
+        "value": "recording_or_response_playback",
+        "basis": "Proposed default: do not hang up mid-recording or mid-answer"
+      },
+      {
+        "setting": "channel_exit_state",
+        "value": "idle",
+        "basis": "Proposed default: leaving channel 0 closes the session silently"
+      },
+      {
+        "setting": "close_playback_failure_state",
+        "value": "idle",
+        "basis": "Proposed fallback: close session even if hangup asset fails"
+      }
+    ],
+    "EffectProfiles": [
+      {
+        "profile_id": "none",
+        "pitch_mode": "off",
+        "reverse_mode": "off",
+        "extra_static_mode": "off",
+        "fade_mode": "off",
+        "preserve_speech": false,
+        "pitch_ratio_min": 1,
+        "pitch_ratio_max": 1,
+        "reverse_probability": 0,
+        "static_probability": 0,
+        "fade_min_s": 0,
+        "fade_max_s": 0,
+        "definition": "No creative distortion. Snippet cuts still use the Settings microfade."
+      },
+      {
+        "profile_id": "fade",
+        "pitch_mode": "off",
+        "reverse_mode": "off",
+        "extra_static_mode": "off",
+        "fade_mode": "randomized",
+        "preserve_speech": false,
+        "pitch_ratio_min": 1,
+        "pitch_ratio_max": 1,
+        "reverse_probability": 0,
+        "static_probability": 0,
+        "fade_min_s": 0.5,
+        "fade_max_s": 2,
+        "definition": "Fade in and out. Fade duration range remains to be tuned."
+      },
+      {
+        "profile_id": "subtle_distortions",
+        "pitch_mode": "subtle_up_or_down",
+        "reverse_mode": "randomized",
+        "extra_static_mode": "randomized",
+        "fade_mode": "off",
+        "preserve_speech": false,
+        "pitch_ratio_min": 0.8,
+        "pitch_ratio_max": 1.2,
+        "reverse_probability": 0.2,
+        "static_probability": 0.4,
+        "fade_min_s": 0.5,
+        "fade_max_s": 0.9,
+        "definition": "Optional pitch shifts, reversal, and extra static. Do not force every effect each time."
+      },
+      {
+        "profile_id": "heavy_low",
+        "pitch_mode": "normal_or_lower",
+        "reverse_mode": "randomized",
+        "extra_static_mode": "randomized",
+        "fade_mode": "off",
+        "preserve_speech": false,
+        "pitch_ratio_min": 0.4,
+        "pitch_ratio_max": 1.0,
+        "reverse_probability": 0.22,
+        "static_probability": 0.6,
+        "fade_min_s": 0.5,
+        "fade_max_s": 0.8,
+        "definition": "Heavy randomized distortion. Final pitch ratio must never exceed 1.0."
+      },
+      {
+        "profile_id": "subtle_pitch_change",
+        "pitch_mode": "subtle",
+        "reverse_mode": "off",
+        "extra_static_mode": "light",
+        "fade_mode": "off",
+        "preserve_speech": true,
+        "pitch_ratio_min": 0.8,
+        "pitch_ratio_max": 1.2,
+        "reverse_probability": 0.0,
+        "static_probability": 0.2,
+        "fade_min_s": 0.5,
+        "fade_max_s": 1.0,
+        "definition": "Proposed profile: preserve voice clarity with light static and subtle pitch drift."
+      },
+      {
+        "profile_id": "heavy_distortions",
+        "pitch_mode": "heavy",
+        "reverse_mode": "randomized",
+        "extra_static_mode": "randomized",
+        "fade_mode": "randomized",
+        "preserve_speech": false,
+        "pitch_ratio_min": 0.5,
+        "pitch_ratio_max": 1.5,
+        "reverse_probability": 0.2,
+        "static_probability": 1.0,
+        "fade_min_s": 0.5,
+        "fade_max_s": 1.0,
+        "definition": "Heavier distortions and extra static always applied."
+      }
+    ],
+    "RadioSettings": [
+      {
+        "setting_key": "schema_version",
+        "value": 1,
+        "value_type": "integer",
+        "basis": "fixed",
+        "definition": "Version of these named-table definitions"
+      },
+      {
+        "setting_key": "activity_input_type",
+        "value": "integer_0_to_100",
+        "value_type": "enum",
+        "basis": "source",
+        "definition": "Activity bounds are inclusive. >5 becomes 6 through 100."
+      },
+      {
+        "setting_key": "ambient_selection_mode",
+        "value": "uniform_eligible",
+        "value_type": "enum",
+        "basis": "source",
+        "definition": "Equal odds across eligible ambient sounds, after optional repeat filtering."
+      },
+      {
+        "setting_key": "ambient_trigger_probability",
+        "value": 0.1,
+        "value_type": "probability",
+        "basis": "tune",
+        "definition": "Small chance specified, exact number not supplied. One global event roll."
+      },
+      {
+        "setting_key": "ambient_check_interval_s",
+        "value": 1,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Time between ambient event checks."
+      },
+      {
+        "setting_key": "ambient_gap_min_s",
+        "value": 150,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Randomized recovery gap after a foreground sound."
+      },
+      {
+        "setting_key": "ambient_gap_max_s",
+        "value": 450,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Maximum recovery gap. Must be at least the minimum."
+      },
+      {
+        "setting_key": "anti_repeat_history_count",
+        "value": 3,
+        "value_type": "integer",
+        "basis": "proposed",
+        "definition": "Avoid the last three ambient sound IDs when alternatives exist."
+      },
+      {
+        "setting_key": "anti_repeat_mode",
+        "value": "avoid_recent_with_fallback",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "If all eligible sounds are recent, choose uniformly from the full eligible pool."
+      },
+      {
+        "setting_key": "anti_repeat_scope",
+        "value": "ambient_only",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "Ben responses and Creation use their exact response-pool odds."
+      },
+      {
+        "setting_key": "robot_extra_repeat_probability",
+        "value": 0.5,
+        "value_type": "probability",
+        "basis": "tune",
+        "definition": "On success, choose 1, 2 or 3 extra plays uniformly. Otherwise one play total."
+      },
+      {
+        "setting_key": "robot_repeat_gap_min_s",
+        "value": 0.2,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Minimum pause between repetitions."
+      },
+      {
+        "setting_key": "robot_repeat_gap_max_s",
+        "value": 0.8,
+        "value_type": "seconds",
+        "basis": "tune",
+        "definition": "Maximum pause between repetitions."
+      },
+      {
+        "setting_key": "snippet_cut_fade_ms",
+        "value": 15,
+        "value_type": "milliseconds",
+        "basis": "proposed",
+        "definition": "Tiny start/end fades to suppress clicks at random snippet cut points."
+      },
+      {
+        "setting_key": "snippet_length_policy",
+        "value": "cap_to_asset_length",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "If the source is shorter than the chosen duration, use available audio."
+      },
+      {
+        "setting_key": "snippet_start_policy",
+        "value": "uniform_valid_start",
+        "value_type": "enum",
+        "basis": "agreed",
+        "definition": "Choose duration first, then a random start that fits inside the source file."
+      },
+      {
+        "setting_key": "keyword_match_mode",
+        "value": "whole_word_casefold",
+        "value_type": "enum",
+        "basis": "agreed",
+        "definition": "Ignore capitalization and punctuation. Match whole words."
+      },
+      {
+        "setting_key": "voice_event_source",
+        "value": "push_to_talk_release",
+        "value_type": "enum",
+        "basis": "agreed",
+        "definition": "Hold SCAN to record. Evaluate voice_input when released."
+      },
+      {
+        "setting_key": "voice_input_requirement",
+        "value": "voice_detected",
+        "value_type": "enum",
+        "basis": "source",
+        "definition": "Require detected speech/vocal input, including untranscribed vocalizations."
+      },
+      {
+        "setting_key": "max_responses_per_input",
+        "value": 1,
+        "value_type": "integer",
+        "basis": "agreed",
+        "definition": "One rule outcome and at most one response sound per transmission."
+      },
+      {
+        "setting_key": "foreground_concurrency",
+        "value": 1,
+        "value_type": "integer",
+        "basis": "proposed",
+        "definition": "One major sound at a time, layered over the channel static bed."
+      },
+      {
+        "setting_key": "unlisted_voice_rules",
+        "value": "no_special_response",
+        "value_type": "enum",
+        "basis": "source",
+        "definition": "Themes for channels 4 and 6 do not invent keyword reactions absent from Files."
+      },
+      {
+        "setting_key": "ben_timeout_clock",
+        "value": "idle_waiting_for_voice",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "BenLifecycle defines when this clock starts, resets, and pauses."
+      },
+      {
+        "setting_key": "channel_change_playback",
+        "value": "fade_stop_current",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "Stop foreground playback and queued repeats when changing channels."
+      },
+      {
+        "setting_key": "missing_asset_policy",
+        "value": "skip_and_report",
+        "value_type": "enum",
+        "basis": "proposed",
+        "definition": "Skip missing audio. A failed Ben opening must not activate the session."
+      }
+    ],
+    "FieldGuide": [
+      {
+        "topic": "Editable configuration",
+        "meaning": "RadioSounds, RadioChannels, SoundChannels, VoiceRules, ResponsePools, VoiceKeywords, BenLifecycle, EffectProfiles, RadioSettings."
+      },
+      {
+        "topic": "Original reference",
+        "meaning": "Original Files and Original Information preserve the supplied data and wording. They are not engine inputs."
+      },
+      {
+        "topic": "Reading tables",
+        "meaning": "Read table headers as field names. Read native numbers and TRUE/FALSE as numeric and boolean values. IDs and enums are text."
+      },
+      {
+        "topic": "Blank cells",
+        "meaning": "Blank means unset or not applicable, never numeric zero. Full-file sounds do not need duration bounds."
+      },
+      {
+        "topic": "Asset names",
+        "meaning": "asset_key preserves the sound name exactly. Resolve to the real audio filename locally. No extension was supplied."
+      },
+      {
+        "topic": "Required tuning",
+        "meaning": "Set ambient odds/timing, robot repeat odds/gaps, and numeric values needed by each selected static/effect profile."
+      },
+      {
+        "topic": "Tuning fields",
+        "meaning": "Blank inactive effect fields are ignored. Blank active fields must be set before running that feature."
+      },
+      {
+        "topic": "Activity eligibility",
+        "meaning": "Require enabled=true, assigned current channel, and activity_min <= Activity <= activity_max."
+      },
+      {
+        "topic": "Ambient events",
+        "meaning": "Only ambient_enabled=true sounds enter the automatic pool. Roll the global ambient probability, then choose uniformly."
+      },
+      {
+        "topic": "Voice rules",
+        "meaning": "On voice_input, filter channel/state, match keywords or detected voice, then evaluate priority. Check sound activity limits too."
+      },
+      {
+        "topic": "Priority",
+        "meaning": "Lower number wins. Goodbye beats forced yes, which beats random Ben answers. Stop after the first matching rule, even if its chance fails."
+      },
+      {
+        "topic": "Response selection",
+        "meaning": "trigger_probability is rolled once for the whole rule. Then select one sound by relative ResponsePools weights."
+      },
+      {
+        "topic": "Creation odds",
+        "meaning": "20% chance of any Creation response at Activity 80–100 on channel 5. Equal weights give each file 5% overall odds."
+      },
+      {
+        "topic": "Ben random odds",
+        "meaning": "After opening, detected voice selects laugh, ugh, yes, or no equally: 25% each. No independent four-way dice rolls."
+      },
+      {
+        "topic": "Ben forced words",
+        "meaning": "chocolate, ghost, and gay force ben_yes only during an active session. ben_no has no forced keywords."
+      },
+      {
+        "topic": "Ben opening",
+        "meaning": "ben or benjamin has 60% opening chance while idle. The opening sound cannot repeat until the session closes."
+      },
+      {
+        "topic": "Ben hangup",
+        "meaning": "bye/goodbye forces hangup during an active session. Idle silence greater than 6 seconds also triggers hangup."
+      },
+      {
+        "topic": "Ben state changes",
+        "meaning": "Set active only after opening playback succeeds. Set idle after hangup. Suspend rule evaluation while a response is playing."
+      },
+      {
+        "topic": "Short source files",
+        "meaning": "Clamp snippet duration to actual asset duration. The selected start must allow the full clamped snippet to fit."
+      },
+      {
+        "topic": "Heavy voice pitch",
+        "meaning": "heavy_low may lower pitch or keep the original. Enforce final pitch <= original, including any later pitch processing."
+      },
+      {
+        "topic": "Robot repetitions",
+        "meaning": "One initial play plus up to three extra plays. The small repeat probability and short gap range are still unset."
+      },
+      {
+        "topic": "Equal odds and memory",
+        "meaning": "Anti-repetition changes the eligible pool, then uses equal odds within it. It never alters Ben or Creation pool weights."
+      },
+      {
+        "topic": "Channel static",
+        "meaning": "static_profile is the original tonal instruction. Numeric pitch/gain and synthesis parameters still need calibration."
+      },
+      {
+        "topic": "Channel 7",
+        "meaning": "Keep selectable with quiet static and no built-in sounds. Scenario files can add assignments later."
+      },
+      {
+        "topic": "Scenario extension",
+        "meaning": "Future Programs can add sound IDs, channel assignments, profiles, rules, and keyword groups using this same schema."
+      },
+      {
+        "topic": "Future mic behavior",
+        "meaning": "Channels 4 and 6 are voice-themed, but individual mic response rules are not supplied yet. Add those explicitly in VoiceRules."
+      },
+      {
+        "topic": "Proposed defaults",
+        "meaning": "Amber proposed values make prior suggestions concrete. They remain editable and are distinguished from your source rules."
+      },
+      {
+        "topic": "Configuration delivery",
+        "meaning": "These sheets define engine behavior. The Pi radio engine still needs a loader and implementation of these settings and profiles."
+      }
+    ],
+    "OriginalSoundFiles": [
+      {
+        "Sound File": "event_breath",
+        "Channel 0": null,
+        "Channel 1": "active",
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": ">0",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_ciocarlia",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": "active",
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": ">0",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "fade in and out",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_circle",
+        "Channel 0": null,
+        "Channel 1": "active",
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": "active",
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": ">0",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "fade in and out",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_ecto_goggles",
+        "Channel 0": null,
+        "Channel 1": "active",
+        "Channel 2": "active",
+        "Channel 3": "active",
+        "Channel 4": "active",
+        "Channel 5": "active",
+        "Channel 6": "active",
+        "Channel 7": null,
+        "Valid Activity Level": ">0",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "fade in and out",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_elevator",
+        "Channel 0": null,
+        "Channel 1": "active",
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": ">0",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_footsteps",
+        "Channel 0": null,
+        "Channel 1": "active",
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": ">5",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_ingrate",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": "active",
+        "Channel 7": null,
+        "Valid Activity Level": ">50",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "fade in and out",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_moan",
+        "Channel 0": null,
+        "Channel 1": "active",
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": ">10",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_pig_noise",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": "active",
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "40 - 69",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_robotvoice",
+        "Channel 0": null,
+        "Channel 1": "active",
+        "Channel 2": "active",
+        "Channel 3": "active",
+        "Channel 4": "active",
+        "Channel 5": "active",
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": ">0",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "this file has a small chance to play once, twice, or three times more in quick succesion",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_uhoh",
+        "Channel 0": null,
+        "Channel 1": "active",
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "20 - 49",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "event_whispering",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": "active",
+        "Channel 3": "active",
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "20 - 49",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "long_ambienttv",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "10 - 49",
+        "Sound Properties when triggered": "Play randomized snippet from 5 to 20 seconds",
+        "Distortions and other attributes to add": "randomized distortions such as subtle pitch changes, reversals, extra static",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "long_birthright",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": "active",
+        "Channel 7": null,
+        "Valid Activity Level": "50 - 79",
+        "Sound Properties when triggered": "Play randomized snippets from 5 to 15 seconds",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "long_black_slime",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "29 - 59",
+        "Sound Properties when triggered": "Play randomized snippets from 2 to 8 seconds",
+        "Distortions and other attributes to add": "randomized distortions such as subtle pitch changes, reversals, extra static",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "long_call",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": "active",
+        "Channel 3": "active",
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "19 - 49",
+        "Sound Properties when triggered": "Play randomized snippets from 9 to 21 seconds",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "long_pain",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": "active",
+        "Channel 7": null,
+        "Valid Activity Level": "70-89",
+        "Sound Properties when triggered": "Play randomized snippets from 7 to 20 seconds",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "long_sayings",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": "active",
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "50 -79",
+        "Sound Properties when triggered": "Play randomized snippets from 8 to 12 seconds",
+        "Distortions and other attributes to add": "randomized distortions such as subtle pitch changes, reversals, extra static",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "long_voice4",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "5-29",
+        "Sound Properties when triggered": "Play randomized snippets from 7 to 12 seconds",
+        "Distortions and other attributes to add": "HEAVY randomized distortions such as pitch changes, but never higher pitched changes, reversals, extra static",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "long_whiskey",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": "active",
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "1-19",
+        "Sound Properties when triggered": "Play randomized snippets from 10 to 20 seconds",
+        "Distortions and other attributes to add": null,
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "voice_devil",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "80-100",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "voice_imstillhere",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "90-100",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "general distortion",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "voice_pig_body",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": "active",
+        "Channel 7": null,
+        "Valid Activity Level": "40 - 69",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "voice_ryan_hello",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "20 - 49",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "voice1",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "20 - 49",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "voice2",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "20 - 49",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "voice3",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": "active",
+        "Channel 3": null,
+        "Channel 4": "active",
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "20 - 49",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": null,
+        "keyword:": null,
+        "Keyword interaction / percentages": null,
+        "voice rules": null
+      },
+      {
+        "Sound File": "creation1",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": "active",
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "80 -100",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "general distortion",
+        "Voice interactive": "yes",
+        "keyword:": "creation",
+        "Keyword interaction / percentages": "saying the keyword has a 20 percent chance to play creation1, creation2,creation3,creation4",
+        "voice rules": null
+      },
+      {
+        "Sound File": "creation2",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": "active",
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "80 -100",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "general distortion",
+        "Voice interactive": "yes",
+        "keyword:": "creation",
+        "Keyword interaction / percentages": "saying the keyword has a 20 percent chance to play creation1, creation2,creation3,creation4",
+        "voice rules": null
+      },
+      {
+        "Sound File": "creation3",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": "active",
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "80 -100",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "general distortion",
+        "Voice interactive": "yes",
+        "keyword:": "creation",
+        "Keyword interaction / percentages": "saying the keyword has a 20 percent chance to play creation1, creation2,creation3,creation4",
+        "voice rules": null
+      },
+      {
+        "Sound File": "creation4",
+        "Channel 0": null,
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": "active",
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "80 -100",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "general distortion",
+        "Voice interactive": "yes",
+        "keyword:": "creation",
+        "Keyword interaction / percentages": "saying the keyword has a 20 percent chance to play creation1, creation2,creation3,creation4",
+        "voice rules": null
+      },
+      {
+        "Sound File": "ben",
+        "Channel 0": "active",
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "any level",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": "yes",
+        "keyword:": "ben,benjamin",
+        "Keyword interaction / percentages": "when saying keyword, this file has a 60% chance to play",
+        "voice rules": "player must say keyword for this to happen. After that, all other ben files are valid to play. This sound cannot play again until after ben_hangup is triggered."
+      },
+      {
+        "Sound File": "ben_laugh",
+        "Channel 0": "active",
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "any level",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": "yes",
+        "keyword:": null,
+        "Keyword interaction / percentages": "when saying anything, this file has a 25% chance to play",
+        "voice rules": "none of these can play until only after the file ben has successfully played"
+      },
+      {
+        "Sound File": "ben_ugh",
+        "Channel 0": "active",
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "any level",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": "yes",
+        "keyword:": null,
+        "Keyword interaction / percentages": "when saying anything, this file has a 25% chance to play",
+        "voice rules": "none of these can play until only after the file ben has successfully played"
+      },
+      {
+        "Sound File": "ben_yes",
+        "Channel 0": "active",
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "any level",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": "yes",
+        "keyword:": "chocolate,ghost,gay",
+        "Keyword interaction / percentages": "when saying anything other than keywords, this file has a 25% chance to play. If keywords are said, this file will play",
+        "voice rules": "none of these can play until only after the file ben has successfully played"
+      },
+      {
+        "Sound File": "ben_no",
+        "Channel 0": "active",
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "any level",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": "yes",
+        "keyword:": null,
+        "Keyword interaction / percentages": "when saying anything other than keywords, this file has a 25% chance to play. If keywords are said, this file will play",
+        "voice rules": "none of these can play until only after the file ben has successfully played"
+      },
+      {
+        "Sound File": "ben_hangup",
+        "Channel 0": "active",
+        "Channel 1": null,
+        "Channel 2": null,
+        "Channel 3": null,
+        "Channel 4": null,
+        "Channel 5": null,
+        "Channel 6": null,
+        "Channel 7": null,
+        "Valid Activity Level": "any level",
+        "Sound Properties when triggered": "Play entire file",
+        "Distortions and other attributes to add": "none",
+        "Voice interactive": "yes",
+        "keyword:": "bye,goodbye,",
+        "Keyword interaction / percentages": "this only plays if nothing is said on the mic for more than 6 seconds or if the keywords are said. After this plays ben_laugh, ben_ugh,ben_yes,ben_no, can no longer be played until after \"ben\" sound file is triggered.",
+        "voice rules": "none of these can play until only after the file ben has successfully played"
+      }
+    ],
+    "OriginalChannelInformation": [
+      {
+        "section": 1,
+        "original_text": "All sound files have an equal small chance to play. However, they can only play if they are within their"
+      },
+      {
+        "section": 2,
+        "original_text": "dedicated activity ranges AND channel.There are 7 main channels, with channel 0 being reserved for more special cases. Some sound files interact with voice commands or simply just to noise input from the microphone."
+      },
+      {
+        "section": 3,
+        "original_text": "The general structure to maintain thematic cohesion:"
+      },
+      {
+        "section": 4,
+        "original_text": "Channel 1 is meant for very small strange sound oddities. Not much interactivity, just short strange sounds."
+      },
+      {
+        "section": 5,
+        "original_text": "Channel 2 is a more intense version of channel 1. This channel is for longer, more coherent sounds and words. Meant to be a bit more curious."
+      },
+      {
+        "section": 6,
+        "original_text": "Channel 3 is reserved for more musical anomalies. Anything regaurded as cursed or haunted music should be in this channel. Whispers and other mantra like sounds can be found here too."
+      },
+      {
+        "section": 7,
+        "original_text": "Channel 4 is a more interactive layer where using the mic can produce a lot of output. This channel represents talking to spirits just like in those cheesy tv shows."
+      },
+      {
+        "section": 8,
+        "original_text": "Channel 5 will contain more monstrous and horrifying sounds. Most all monster and creature sounds will be in this channel."
+      },
+      {
+        "section": 9,
+        "original_text": "Channel 6 has a demonic theme. The most evil and creepy sentences and sound effects are here. This channel is very interactive with voice."
+      },
+      {
+        "section": 10,
+        "original_text": "Channel 7 is meant for very special and unique cases. Most likely will be used for planned events. The strongest entities are planned for this"
+      },
+      {
+        "section": 11,
+        "original_text": "channel."
+      },
+      {
+        "section": 12,
+        "original_text": "Each channel changes the background static very subtly so that each has its own distinct tone:"
+      },
+      {
+        "section": 13,
+        "original_text": "Channel 0: Default"
+      },
+      {
+        "section": 14,
+        "original_text": "Channel 1: Default"
+      },
+      {
+        "section": 15,
+        "original_text": "Channel 2: Slightly higher pitched"
+      },
+      {
+        "section": 16,
+        "original_text": "Channel 3: Slightly lower pitched"
+      },
+      {
+        "section": 17,
+        "original_text": "Channel 4: Less scratchy White Noise"
+      },
+      {
+        "section": 18,
+        "original_text": "Channel 5: Brown Noise"
+      },
+      {
+        "section": 19,
+        "original_text": "Channel 6: Lower, almost monotonous tones"
+      },
+      {
+        "section": 20,
+        "original_text": "Channel 7: Quiet static"
+      }
+    ],
+    "EventBuilderGuide": [
+      {
+        "topic": "Purpose",
+        "instructions": "Define new conversations and interactive events using generic event IDs, states, rules, response pools, and action sequences."
+      },
+      {
+        "topic": "Integration status",
+        "instructions": "Configuration blueprint for the future event engine. A Pi loader and the listed trigger/action handlers still need implementation."
+      },
+      {
+        "topic": "Schema version",
+        "instructions": "1.0. Read named Excel tables. Field names are stable IDs, native numbers, booleans, and enums. Guide and Dictionary are documentation."
+      },
+      {
+        "topic": "Ben example",
+        "instructions": "Preserves 60% opening, equal 25% answers, forced yes keywords, goodbye hangup, and silence greater than 6 seconds."
+      },
+      {
+        "topic": "Creation example",
+        "instructions": "On channel 5 at Activity 80–100, creation has one 20% response roll. One of four equal-weight sounds plays on success."
+      },
+      {
+        "topic": "Conversation template",
+        "instructions": "your_event is disabled and assigned to channels 4 and 6. Copy its rows across the data tabs and replace its IDs and keyword."
+      },
+      {
+        "topic": "Sword example",
+        "instructions": "sword_example is disabled. It needs the active sword Program and PKE mode. SCAN at Activity 98–100 unlocks haunted_sword once."
+      },
+      {
+        "topic": "Start a new event",
+        "instructions": "Copy an Events row, give it a unique event_id and name, and keep enabled=FALSE while editing its related tables."
+      },
+      {
+        "topic": "Define the states",
+        "instructions": "Add States rows for that event. initial_state must exist. Reuse names such as idle and contact independently across events."
+      },
+      {
+        "topic": "Assign channels",
+        "instructions": "For Radio events, add every allowed channel in EventChannels. Multiple rows mean multiple allowed channels. PKE events ignore channels."
+      },
+      {
+        "topic": "Add triggers",
+        "instructions": "Add Rules for the event: state, trigger, keyword group, activity range, chance, action set, and next states."
+      },
+      {
+        "topic": "Add reactions",
+        "instructions": "Define Actions and any Keywords or Responses referenced by the rules. Keep action steps unique and consecutive from 1."
+      },
+      {
+        "topic": "Add audio",
+        "instructions": "Add new audio files and definitions to the radio sound catalog. Sound References lists IDs used here; it does not duplicate playback settings."
+      },
+      {
+        "topic": "Enable the event",
+        "instructions": "Replace placeholder assets/keywords, verify referenced states and actions, assign channels, then set Events.enabled=TRUE."
+      },
+      {
+        "topic": "Rule evaluation",
+        "instructions": "Filter event mode, Program, channels, state, trigger, activity, cooldown and use limit. Then evaluate event priority followed by rule priority."
+      },
+      {
+        "topic": "Simultaneous matches",
+        "instructions": "For one input, consider events and rules in ascending priority order. Ties use event_id then rule_id. Default consume_input=TRUE prevents a second reaction."
+      },
+      {
+        "topic": "Probability roll",
+        "instructions": "Roll once for a matching rule. On failure use on_failure_state and consume the input if configured. Do not roll once per response sound."
+      },
+      {
+        "topic": "Response sounds",
+        "instructions": "play_pool chooses one eligible sound by weight. Base catalog enabled flag and activity bounds still apply. No eligible sound means action failure."
+      },
+      {
+        "topic": "Sound channels",
+        "instructions": "For play_sound and play_pool, channel eligibility is owned by EventChannels. Base SoundChannels continues to govern spontaneous ambient playback."
+      },
+      {
+        "topic": "Successful transition",
+        "instructions": "Complete the action set before on_success_state applies. Opening Ben audio must actually complete before his state becomes active."
+      },
+      {
+        "topic": "Action failure",
+        "instructions": "Stop on a required action failure and use on_failure_state. Optional failed actions are skipped. Previously completed actions are not rolled back."
+      },
+      {
+        "topic": "Probability versus pool odds",
+        "instructions": "Rule chance × eligible pool share = overall sound chance. Creation gives 20% × 25% = 5% per sound when all four are eligible."
+      },
+      {
+        "topic": "Timers",
+        "instructions": "Idle time starts at state entry or completed response. Detected voice resets it when configured. Paused time does not count. Ben times out only above 6 s."
+      },
+      {
+        "topic": "Idle timeout events",
+        "instructions": "Emit one idle_timeout per timer expiry. Rearm after timer reset or state reentry. Required hangup failure can still close the event via failure state."
+      },
+      {
+        "topic": "Input meanings",
+        "instructions": "voice_input fires on push-to-talk release only when vocal input was detected. scan_press is SCAN in PKE mode. Radio SCAN records voice."
+      },
+      {
+        "topic": "Other triggers",
+        "instructions": "button_a_press and button_b_press identify the square buttons. scope_enter fires when an event becomes eligible. activity_enter fires on entering a rule range."
+      },
+      {
+        "topic": "Transition markers",
+        "instructions": "from_state=* matches any state in that event. next-state keep preserves current state. These markers are reserved and cannot be state IDs."
+      },
+      {
+        "topic": "Session use limits",
+        "instructions": "max_fires_session=0 means unlimited. Count successful action sets only. Cooldown starts after success. Both reset on event reset."
+      },
+      {
+        "topic": "Independent progress",
+        "instructions": "Every event stores its own state and rule counts. Session state clears on restart. Disk state survives restart until manual reset."
+      },
+      {
+        "topic": "Scope resets",
+        "instructions": "on_scope_exit resets when mode, Program, or allowed channel stops matching. Switching between two assigned channels keeps the same event state."
+      },
+      {
+        "topic": "Entry unlocks",
+        "instructions": "unlock_entry saves local progress and is idempotent. The scenario supplies the entry text and image. show_entry opens that entry after unlock."
+      },
+      {
+        "topic": "New capabilities",
+        "instructions": "The named triggers and action types define the planned engine contract. A capability outside these types needs an engine/schema extension."
+      },
+      {
+        "topic": "Blank values",
+        "instructions": "Blank program_id means no scenario required. Blank keyword_group accepts any detected voice. Blank unused action arguments and timer settings stay unset."
+      },
+      {
+        "topic": "Editing tables",
+        "instructions": "Add rows inside the named tables. For new Response rows, copy the selection_probability formula down. More than 995 pool rows requires extending its range."
+      },
+      {
+        "topic": "Sources and defaults",
+        "instructions": "Ben/Creation follow the agreed radio configuration. Template timeouts, priorities, reset/storage policies and action examples are proposed editable defaults."
+      },
+      {
+        "topic": "Avoid duplicate controllers",
+        "instructions": "After integration, migrate Ben/Creation to this engine or disable their old VoiceRules. Do not activate two controllers for the same interaction."
+      },
+      {
+        "topic": "Disable or remove",
+        "instructions": "Disable an event in Events to keep its definitions for later. Delete all linked rows only when you want to remove the event completely."
+      }
+    ],
+    "InteractiveEvents": [
+      {
+        "event_id": "ben",
+        "enabled": true,
+        "name": "Ben conversation",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 10,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
+      },
+      {
+        "event_id": "creation",
+        "enabled": true,
+        "name": "Creation keyword event",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 50,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
+      },
+      {
+        "event_id": "your_event",
+        "enabled": false,
+        "name": "Copy this conversation template",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 100,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
+      },
+      {
+        "event_id": "sword_example",
+        "enabled": false,
+        "name": "Haunted Sword scan example",
+        "mode": "pke",
+        "program_id": "sword",
+        "initial_state": "searching",
+        "priority": 20,
+        "reset_policy": "manual_only",
+        "state_storage": "disk"
+      }
+    ],
+    "EventChannels": [
+      {
+        "event_id": "ben",
+        "channel_id": 0
+      },
+      {
+        "event_id": "creation",
+        "channel_id": 5
+      },
+      {
+        "event_id": "your_event",
+        "channel_id": 4
+      },
+      {
+        "event_id": "your_event",
+        "channel_id": 6
+      }
+    ],
+    "EventStates": [
+      {
+        "event_id": "ben",
+        "state_id": "idle",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "ben",
+        "state_id": "active",
+        "timer_kind": "idle",
+        "timeout_s": 6,
+        "timeout_operator": "gt",
+        "reset_on_voice": true,
+        "pause_recording": true,
+        "pause_actions": true
+      },
+      {
+        "event_id": "creation",
+        "state_id": "idle",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "your_event",
+        "state_id": "idle",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "your_event",
+        "state_id": "contact",
+        "timer_kind": "idle",
+        "timeout_s": 10,
+        "timeout_operator": "gte",
+        "reset_on_voice": true,
+        "pause_recording": true,
+        "pause_actions": true
+      },
+      {
+        "event_id": "sword_example",
+        "state_id": "searching",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "sword_example",
+        "state_id": "found",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      }
+    ],
+    "EventRules": [
+      {
+        "rule_id": "ben_goodbye",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "active",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "ben_bye",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "ben_close",
+        "on_success_state": "idle",
+        "on_failure_state": "idle",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ben_forced_yes",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "active",
+        "trigger": "voice_input",
+        "priority": 20,
+        "keyword_group": "ben_yes",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "ben_yes_only",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ben_answer",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "active",
+        "trigger": "voice_input",
+        "priority": 100,
+        "keyword_group": null,
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "ben_answer",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ben_open",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "ben_name",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 0.6,
+        "action_set": "ben_open",
+        "on_success_state": "active",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ben_timeout",
+        "event_id": "ben",
+        "enabled": true,
+        "from_state": "active",
+        "trigger": "idle_timeout",
+        "priority": 10,
+        "keyword_group": null,
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "ben_close",
+        "on_success_state": "idle",
+        "on_failure_state": "idle",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "creation_keyword",
+        "event_id": "creation",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "creation",
+        "activity_min": 80,
+        "activity_max": 100,
+        "probability": 0.2,
+        "action_set": "creation_response",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "your_open",
+        "event_id": "your_event",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "your_keyword",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "your_response",
+        "on_success_state": "contact",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "your_reply",
+        "event_id": "your_event",
+        "enabled": true,
+        "from_state": "contact",
+        "trigger": "voice_input",
+        "priority": 100,
+        "keyword_group": null,
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 0.5,
+        "action_set": "your_response",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 2,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "your_timeout",
+        "event_id": "your_event",
+        "enabled": true,
+        "from_state": "contact",
+        "trigger": "idle_timeout",
+        "priority": 10,
+        "keyword_group": null,
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "your_close",
+        "on_success_state": "idle",
+        "on_failure_state": "idle",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "sword_scan",
+        "event_id": "sword_example",
+        "enabled": true,
+        "from_state": "searching",
+        "trigger": "scan_press",
+        "priority": 10,
+        "keyword_group": null,
+        "activity_min": 98,
+        "activity_max": 100,
+        "probability": 1,
+        "action_set": "sword_discovery",
+        "on_success_state": "found",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 1,
+        "consume_input": true
+      }
+    ],
+    "EventActions": [
+      {
+        "action_set": "ben_open",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "ben",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "ben_close",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "ben_hangup",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "ben_yes_only",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "ben_yes",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "ben_answer",
+        "step": 1,
+        "action_type": "play_pool",
+        "sound_id": null,
+        "response_pool": "ben_answers",
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "creation_response",
+        "step": 1,
+        "action_type": "play_pool",
+        "sound_id": null,
+        "response_pool": "creation",
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "your_response",
+        "step": 1,
+        "action_type": "play_pool",
+        "sound_id": null,
+        "response_pool": "your_pool",
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "your_close",
+        "step": 1,
+        "action_type": "display_message",
+        "sound_id": null,
+        "response_pool": null,
+        "message_text": "CONTACT LOST",
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": 1,
+        "required": true
+      },
+      {
+        "action_set": "sword_discovery",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "sword_scan",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": false
+      },
+      {
+        "action_set": "sword_discovery",
+        "step": 2,
+        "action_type": "display_message",
+        "sound_id": null,
+        "response_pool": null,
+        "message_text": "ANOMALOUS OBJECT DETECTED",
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": 2,
+        "required": true
+      },
+      {
+        "action_set": "sword_discovery",
+        "step": 3,
+        "action_type": "unlock_entry",
+        "sound_id": null,
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": "haunted_sword",
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "sword_discovery",
+        "step": 4,
+        "action_type": "show_entry",
+        "sound_id": null,
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": "haunted_sword",
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      }
+    ],
+    "EventKeywords": [
+      {
+        "keyword_group": "ben_name",
+        "keyword": "ben"
+      },
+      {
+        "keyword_group": "ben_name",
+        "keyword": "benjamin"
+      },
+      {
+        "keyword_group": "ben_yes",
+        "keyword": "chocolate"
+      },
+      {
+        "keyword_group": "ben_yes",
+        "keyword": "ghost"
+      },
+      {
+        "keyword_group": "ben_yes",
+        "keyword": "gay"
+      },
+      {
+        "keyword_group": "ben_bye",
+        "keyword": "bye"
+      },
+      {
+        "keyword_group": "ben_bye",
+        "keyword": "goodbye"
+      },
+      {
+        "keyword_group": "creation",
+        "keyword": "creation"
+      },
+      {
+        "keyword_group": "your_keyword",
+        "keyword": "replace_me"
+      }
+    ],
+    "EventResponsePools": [
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_laugh",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_ugh",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_yes",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "ben_answers",
+        "sound_id": "ben_no",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation1",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation2",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation3",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "creation",
+        "sound_id": "creation4",
+        "weight": 1,
+        "selection_probability": 0.25
+      },
+      {
+        "pool_id": "your_pool",
+        "sound_id": "your_new_sound",
+        "weight": 1,
+        "selection_probability": 1
+      }
+    ],
+    "EventSoundReferences": [
+      {
+        "sound_id": "ben",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "ben_hangup",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "ben_yes",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "ben_laugh",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "ben_ugh",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "ben_no",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "creation1",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "creation2",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "creation3",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "creation4",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "your_new_sound",
+        "source": "add_to_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "sword_scan",
+        "source": "optional_example_asset",
+        "asset_file": null
+      },
+      {
+        "sound_id": "voice_devil",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "voice_imstillhere",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "event_moan",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "event_pig_noise",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "event_whispering",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "long_black_slime",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "long_sayings",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "voice1",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "voice2",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      },
+      {
+        "sound_id": "voice3",
+        "source": "existing_radio_catalog",
+        "asset_file": null
+      }
+    ],
+    "EventEntryReferences": [
+      {
+        "entry_id": "haunted_sword",
+        "database": "artifacts",
+        "definition_status": "Example only: add entry, description, and image to scenario data."
+      }
+    ],
+    "EventFieldDictionary": [
+      {
+        "table": "Events",
+        "field": "event_id",
+        "type": "text",
+        "meaning": "Unique ID of a conversation or event. Use lowercase letters, numbers, and underscores."
+      },
+      {
+        "table": "Events",
+        "field": "enabled",
+        "type": "boolean",
+        "meaning": "FALSE keeps the event disabled while you create or edit it."
+      },
+      {
+        "table": "Events",
+        "field": "name",
+        "type": "text",
+        "meaning": "Human-readable event title."
+      },
+      {
+        "table": "Events",
+        "field": "mode",
+        "type": "enum",
+        "meaning": "radio or pke. Controls whether Radio channel gating applies."
+      },
+      {
+        "table": "Events",
+        "field": "program_id",
+        "type": "optional text",
+        "meaning": "Blank for base events. Otherwise require the matching active scenario ID."
+      },
+      {
+        "table": "Events",
+        "field": "initial_state",
+        "type": "state ID",
+        "meaning": "Starting state for this event. Must exist in EventStates."
+      },
+      {
+        "table": "Events",
+        "field": "priority",
+        "type": "integer",
+        "meaning": "Lower event priority runs first when multiple events match."
+      },
+      {
+        "table": "Events",
+        "field": "reset_policy",
+        "type": "enum",
+        "meaning": "on_scope_exit or manual_only. Affects state and successful-use counters."
+      },
+      {
+        "table": "Events",
+        "field": "state_storage",
+        "type": "enum",
+        "meaning": "session or disk. Disk state and counters persist locally, scoped by event_id."
+      },
+      {
+        "table": "EventChannels",
+        "field": "event_id / channel_id",
+        "type": "text / integer",
+        "meaning": "One channel 0–7 per row. Multiple rows give one event access to multiple channels."
+      },
+      {
+        "table": "States",
+        "field": "event_id / state_id",
+        "type": "text / text",
+        "meaning": "The pair uniquely identifies a state. State names can repeat across events."
+      },
+      {
+        "table": "States",
+        "field": "timer_kind",
+        "type": "enum",
+        "meaning": "none disables the idle timer. idle uses timeout_s and timeout_operator."
+      },
+      {
+        "table": "States",
+        "field": "timeout_s",
+        "type": "seconds",
+        "meaning": "Required positive number for idle timers. Blank when timer_kind=none."
+      },
+      {
+        "table": "States",
+        "field": "timeout_operator",
+        "type": "enum",
+        "meaning": "gt means strictly greater than. gte means greater than or equal to."
+      },
+      {
+        "table": "States",
+        "field": "reset_on_voice",
+        "type": "boolean",
+        "meaning": "Reset idle time when vocal input is detected in the current event scope."
+      },
+      {
+        "table": "States",
+        "field": "pause_recording / pause_actions",
+        "type": "boolean",
+        "meaning": "Exclude time spent recording or executing a response action set from idle time."
+      },
+      {
+        "table": "Rules",
+        "field": "rule_id",
+        "type": "text",
+        "meaning": "Globally unique trigger rule ID."
+      },
+      {
+        "table": "Rules",
+        "field": "event_id / enabled",
+        "type": "text / boolean",
+        "meaning": "Owning event and switch for this individual rule."
+      },
+      {
+        "table": "Rules",
+        "field": "from_state",
+        "type": "state ID or *",
+        "meaning": "Required current state. * accepts any state within that event."
+      },
+      {
+        "table": "Rules",
+        "field": "trigger",
+        "type": "enum",
+        "meaning": "voice_input, idle_timeout, scan_press, button_a_press, button_b_press, scope_enter, activity_enter."
+      },
+      {
+        "table": "Rules",
+        "field": "priority",
+        "type": "integer",
+        "meaning": "Lower rule priority wins within an event. Specific keyword rules should precede general voice rules."
+      },
+      {
+        "table": "Rules",
+        "field": "keyword_group",
+        "type": "optional text",
+        "meaning": "Require any matching whole word or phrase in EventKeywords. Blank means no keyword restriction."
+      },
+      {
+        "table": "Rules",
+        "field": "activity_min / activity_max",
+        "type": "integer",
+        "meaning": "Inclusive activity bounds, 0–100. Use 0 and 100 for all levels."
+      },
+      {
+        "table": "Rules",
+        "field": "probability",
+        "type": "number 0–1",
+        "meaning": "One response chance for the rule. 0.2 displays as 20%."
+      },
+      {
+        "table": "Rules",
+        "field": "action_set",
+        "type": "text",
+        "meaning": "ID of a sequence in EventActions."
+      },
+      {
+        "table": "Rules",
+        "field": "on_success_state",
+        "type": "state ID or keep",
+        "meaning": "State after the action set finishes successfully."
+      },
+      {
+        "table": "Rules",
+        "field": "on_failure_state",
+        "type": "state ID or keep",
+        "meaning": "State after probability failure or required action failure."
+      },
+      {
+        "table": "Rules",
+        "field": "cooldown_s",
+        "type": "seconds",
+        "meaning": "Minimum time after a successful action set before this rule can succeed again. 0 disables cooldown."
+      },
+      {
+        "table": "Rules",
+        "field": "max_fires_session",
+        "type": "integer",
+        "meaning": "Maximum successful runs between resets. 0 means unlimited. Disk events persist this count."
+      },
+      {
+        "table": "Rules",
+        "field": "consume_input",
+        "type": "boolean",
+        "meaning": "If TRUE, a matched rule consumes this input even when its probability roll fails."
+      },
+      {
+        "table": "Actions",
+        "field": "action_set / step",
+        "type": "text / integer",
+        "meaning": "Sequence ID and order, starting at 1. The pair must be unique."
+      },
+      {
+        "table": "Actions",
+        "field": "action_type",
+        "type": "enum",
+        "meaning": "play_sound, play_pool, display_message, set_screen_color, restore_screen_color, unlock_entry, show_entry, show_image, delay."
+      },
+      {
+        "table": "Actions",
+        "field": "sound_id",
+        "type": "optional text",
+        "meaning": "Required for play_sound. Use the exact ID from the radio catalog."
+      },
+      {
+        "table": "Actions",
+        "field": "response_pool",
+        "type": "optional text",
+        "meaning": "Required for play_pool. Use a pool ID from EventResponsePools."
+      },
+      {
+        "table": "Actions",
+        "field": "message_text",
+        "type": "optional text",
+        "meaning": "Required for display_message. Text shown on the screen."
+      },
+      {
+        "table": "Actions",
+        "field": "color_hex",
+        "type": "optional text",
+        "meaning": "Required for set_screen_color. Hex RGB such as #3CB4FF. Applies until restored or event scope exits."
+      },
+      {
+        "table": "Actions",
+        "field": "entry_id",
+        "type": "optional text",
+        "meaning": "Required for unlock_entry or show_entry. Resolve through scenario/database entries."
+      },
+      {
+        "table": "Actions",
+        "field": "image_asset",
+        "type": "optional text",
+        "meaning": "Required for show_image. Relative asset path, such as images/sword.png."
+      },
+      {
+        "table": "Actions",
+        "field": "duration_s",
+        "type": "optional seconds",
+        "meaning": "Required positive duration for display_message, show_image, or delay. Other actions leave it blank."
+      },
+      {
+        "table": "Actions",
+        "field": "required",
+        "type": "boolean",
+        "meaning": "TRUE: failure stops the action set. FALSE: failure skips this action and continues."
+      },
+      {
+        "table": "Keywords",
+        "field": "keyword_group / keyword",
+        "type": "text / text",
+        "meaning": "One word or phrase per row. Any row in the group can match."
+      },
+      {
+        "table": "Responses",
+        "field": "pool_id / sound_id",
+        "type": "text / text",
+        "meaning": "One candidate sound per row. Sounds can belong to different pools."
+      },
+      {
+        "table": "Responses",
+        "field": "weight",
+        "type": "positive number",
+        "meaning": "Relative selection weight. Four weights of 1 give four equal 25% candidates."
+      },
+      {
+        "table": "Responses",
+        "field": "selection_probability",
+        "type": "formula",
+        "meaning": "Calculated pool share for editing feedback. The engine recalculates weights and ignores this column."
+      },
+      {
+        "table": "Sound References",
+        "field": "sound_id / source / asset_file",
+        "type": "text / text / optional text",
+        "meaning": "Audio checklist. Existing IDs inherit the radio catalog. New assets need actual files and catalog entries."
+      },
+      {
+        "table": "Entry References",
+        "field": "entry_id / database / definition_status",
+        "type": "text",
+        "meaning": "Scenario entry checklist. These rows describe required external entry data and do not define the entry itself."
+      }
+    ]
+  },
+  "assets": {},
+  "programs": [],
+  "active_program": null
+}
