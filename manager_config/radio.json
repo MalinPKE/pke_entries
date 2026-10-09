@@ -911,32 +911,32 @@
         "channel_id": 4
       },
       {
+        "sound_id": "voice1",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice1",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice2",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice2",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice3",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice3",
+        "channel_id": 4
+      },
+      {
         "sound_id": "long_sayings",
         "channel_id": 3
-      },
-      {
-        "sound_id": "voice1",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "voice1",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "voice2",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "voice2",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "voice3",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "voice3",
-        "channel_id": 4
       }
     ],
     "EffectProfiles": [
@@ -962,12 +962,12 @@
         "extra_static_mode": "off",
         "fade_mode": "randomized",
         "preserve_speech": false,
-        "pitch_ratio_min": 1,
-        "pitch_ratio_max": 1,
-        "reverse_probability": 0,
-        "static_probability": 0,
-        "fade_min_s": 0.5,
-        "fade_max_s": 2,
+        "pitch_ratio_min": 1.0,
+        "pitch_ratio_max": 1.0,
+        "reverse_probability": 0.0,
+        "static_probability": 0.0,
+        "fade_min_s": 2.0,
+        "fade_max_s": 3.0,
         "definition": "Fade in and out. Fade duration range remains to be tuned."
       },
       {
@@ -981,8 +981,8 @@
         "pitch_ratio_max": 1.2,
         "reverse_probability": 0.2,
         "static_probability": 0.4,
-        "fade_min_s": 0.5,
-        "fade_max_s": 0.9,
+        "fade_min_s": 1.0,
+        "fade_max_s": 2.0,
         "definition": "Optional pitch shifts, reversal, and extra static. Do not force every effect each time."
       },
       {
@@ -996,8 +996,8 @@
         "pitch_ratio_max": 1.0,
         "reverse_probability": 0.22,
         "static_probability": 0.6,
-        "fade_min_s": 0.5,
-        "fade_max_s": 0.8,
+        "fade_min_s": 1.0,
+        "fade_max_s": 2.0,
         "definition": "Heavy randomized distortion. Final pitch ratio must never exceed 1.0."
       },
       {
@@ -1011,8 +1011,8 @@
         "pitch_ratio_max": 1.2,
         "reverse_probability": 0.0,
         "static_probability": 0.2,
-        "fade_min_s": 0.5,
-        "fade_max_s": 1.0,
+        "fade_min_s": 1.0,
+        "fade_max_s": 3.0,
         "definition": "Proposed profile: preserve voice clarity with light static and subtle pitch drift."
       },
       {
@@ -1026,8 +1026,8 @@
         "pitch_ratio_max": 1.5,
         "reverse_probability": 0.2,
         "static_probability": 1.0,
-        "fade_min_s": 0.5,
-        "fade_max_s": 1.0,
+        "fade_min_s": 1.0,
+        "fade_max_s": 1.5,
         "definition": "Heavier distortions and extra static always applied."
       }
     ],

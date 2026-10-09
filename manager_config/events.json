@@ -498,8 +498,20 @@
         "keyword": "creation"
       },
       {
-        "keyword_group": "your_keyword",
-        "keyword": "replace_me"
+        "keyword_group": "ben_name",
+        "keyword": "then"
+      },
+      {
+        "keyword_group": "ben_name",
+        "keyword": "n"
+      },
+      {
+        "keyword_group": "ben_name",
+        "keyword": "den"
+      },
+      {
+        "keyword_group": "ben_name",
+        "keyword": "when"
       }
     ],
     "EventResponsePools": [
