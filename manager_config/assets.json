@@ -1,1 +1,224 @@
-{}
+{
+  "ben_hangup": {
+    "path": "assets/sound/ben_hangup_8ef192238a1e.wav",
+    "kind": "sound",
+    "sha256": "8ef192238a1e4c76b5a97ae3dc59b3754364281aa2c3402777ec6d585d5e9f9a",
+    "size": 100282
+  },
+  "ben_no": {
+    "path": "assets/sound/ben_no_5bcd86913594.wav",
+    "kind": "sound",
+    "sha256": "5bcd869135945a6ec3a040e02fa7219bb69c1262ebacfb55b8e6656c4d3ed750",
+    "size": 141162
+  },
+  "ben_yes": {
+    "path": "assets/sound/ben_yes_ce3d0a44070b.wav",
+    "kind": "sound",
+    "sha256": "ce3d0a44070b845c4c2bac90dccaf260a103e3de95002ecc2a425d399c7456e7",
+    "size": 173498
+  },
+  "ben_ugh": {
+    "path": "assets/sound/ben_ugh_df05d0df7fc8.wav",
+    "kind": "sound",
+    "sha256": "df05d0df7fc82460363b0f60f351dfb9410d38c5240091463f480bbe82340292",
+    "size": 166570
+  },
+  "ben_laugh": {
+    "path": "assets/sound/ben_laugh_186bc6902a1b.wav",
+    "kind": "sound",
+    "sha256": "186bc6902a1b29f0b5933f2c0c399fdfd38058c139232370eaa7b53cb9d91fe2",
+    "size": 291294
+  },
+  "ben": {
+    "path": "assets/sound/ben_da17fd6d836e.wav",
+    "kind": "sound",
+    "sha256": "da17fd6d836e8d0a42011d0c71cee274f3687eeba6bfc3ad7ad21d5687a9d54a",
+    "size": 134226
+  },
+  "creation4": {
+    "path": "assets/sound/creation4_10b3ed213cd5.wav",
+    "kind": "sound",
+    "sha256": "10b3ed213cd59b78b73c9268c2490d7c2c84add55e4865f954f0e61f3ffd5548",
+    "size": 1078086
+  },
+  "creation3": {
+    "path": "assets/sound/creation3_32b21b0a415a.wav",
+    "kind": "sound",
+    "sha256": "32b21b0a415a6a72a7543359aab5d616e43bd39f6e6d6f6f55a2a8f5a1826418",
+    "size": 1485878
+  },
+  "creation2": {
+    "path": "assets/sound/creation2_4de789e67176.wav",
+    "kind": "sound",
+    "sha256": "4de789e671763c0bb30e4231dc27e3f15f0389c9844de96eb715da4cf6a24450",
+    "size": 1864546
+  },
+  "creation1": {
+    "path": "assets/sound/creation1_784ffb7e39de.wav",
+    "kind": "sound",
+    "sha256": "784ffb7e39de3c5ca79cbb9eff8053124285fcbb1d36309f0eafe91de4491df3",
+    "size": 1544134
+  },
+  "voice3": {
+    "path": "assets/sound/voice3_5a6b018a7705.wav",
+    "kind": "sound",
+    "sha256": "5a6b018a77056179576843a6220f1e551b8d704bccf0564aa9a8883d358dbb1e",
+    "size": 1159052
+  },
+  "voice2": {
+    "path": "assets/sound/voice2_e7a3de21f091.wav",
+    "kind": "sound",
+    "sha256": "e7a3de21f091756b8999f3889df6104a658ac0a32dbcc397cf79fe2b7189600a",
+    "size": 809108
+  },
+  "voice1": {
+    "path": "assets/sound/voice1_f922082cfe6c.wav",
+    "kind": "sound",
+    "sha256": "f922082cfe6c64670f93930de32b1c6f620723b820f78d16cce42aae72590533",
+    "size": 712584
+  },
+  "voice_ryan_hello": {
+    "path": "assets/sound/voice_ryan_hello_7d40667033a9.wav",
+    "kind": "sound",
+    "sha256": "7d40667033a934d70e694a18dcb078840c4188df524162a261440bd3a01db626",
+    "size": 274318
+  },
+  "voice_pig_body": {
+    "path": "assets/sound/voice_pig_body_41b605cb6c77.wav",
+    "kind": "sound",
+    "sha256": "41b605cb6c7746a16b251d512a57b78d86b3574e51024fa07e3894fbaa20dc41",
+    "size": 693880
+  },
+  "voice_imstillhere": {
+    "path": "assets/sound/voice_imstillhere_53db38eafb51.wav",
+    "kind": "sound",
+    "sha256": "53db38eafb5154e52f2baac29b228c3c3b6b70083548db7fe27226f53e01ff64",
+    "size": 200748
+  },
+  "voice_devil": {
+    "path": "assets/sound/voice_devil_a0a06b5ba053.wav",
+    "kind": "sound",
+    "sha256": "a0a06b5ba053d6275b31029cfeb8e8c0e4f4ce539c787edb9252080161f58500",
+    "size": 621436
+  },
+  "long_whiskey": {
+    "path": "assets/sound/long_whiskey_141c959ad7ab.wav",
+    "kind": "sound",
+    "sha256": "141c959ad7ab0794977c9dd1fec06cdfa4ab1707d10ee6ba5f7c56d0fc74714d",
+    "size": 7771806
+  },
+  "long_voice4": {
+    "path": "assets/sound/long_voice4_8309eae8561a.wav",
+    "kind": "sound",
+    "sha256": "8309eae8561a1f40d1c89448901d071db44c6647e6e6ed2550e76b78b39a3a8e",
+    "size": 3913600
+  },
+  "long_sayings": {
+    "path": "assets/sound/long_sayings_f1debababe1a.wav",
+    "kind": "sound",
+    "sha256": "f1debababe1a4730bf56e17414894b9605c73dea3a90014c1f59bb9c8e1f9cb8",
+    "size": 34992508
+  },
+  "long_pain": {
+    "path": "assets/sound/long_pain_2822037ebe9a.wav",
+    "kind": "sound",
+    "sha256": "2822037ebe9a71107418866b9f08014d3e7ce7756114f82a290867170b48dfd7",
+    "size": 4612688
+  },
+  "long_call": {
+    "path": "assets/sound/long_call_cb009f147a2b.wav",
+    "kind": "sound",
+    "sha256": "cb009f147a2b558550ca6dff1eeda73622a9146a3367e8e52a2206f488460621",
+    "size": 3020192
+  },
+  "long_black_slime": {
+    "path": "assets/sound/long_black_slime_3c97093eadd6.wav",
+    "kind": "sound",
+    "sha256": "3c97093eadd6e117037dbe8b9d007e66ca6dd2f1e72f17ef1da6377a8a549323",
+    "size": 1962028
+  },
+  "long_birthright": {
+    "path": "assets/sound/long_birthright_a3527bf92262.wav",
+    "kind": "sound",
+    "sha256": "a3527bf92262e3bbe0b556e99c00ecdc9461638bfd223c1e83afc1730b01453a",
+    "size": 10551684
+  },
+  "long_ambienttv": {
+    "path": "assets/sound/long_ambienttv_3978e4dc9e2c.wav",
+    "kind": "sound",
+    "sha256": "3978e4dc9e2c931629cc79c23d6cfbbe1b4d604df99074a25dda7a50e9cd0d88",
+    "size": 1596888
+  },
+  "event_whispering": {
+    "path": "assets/sound/event_whispering_4a5424a7df56.wav",
+    "kind": "sound",
+    "sha256": "4a5424a7df5601a938deb8fcdf0478ca197b2b9d2642dd644368934099651d43",
+    "size": 666426
+  },
+  "event_uhoh": {
+    "path": "assets/sound/event_uhoh_fd6e51b3dcad.wav",
+    "kind": "sound",
+    "sha256": "fd6e51b3dcada4ec49a139ac631cbe6f8f691bf95954b72c5fe4845f6e2ad7f9",
+    "size": 50996
+  },
+  "event_robotvoice": {
+    "path": "assets/sound/event_robotvoice_c6c99c14dff5.wav",
+    "kind": "sound",
+    "sha256": "c6c99c14dff5c362f9cd2fb346b14b650932d2292ce09fbf8439a6d5c3fd756a",
+    "size": 16682
+  },
+  "event_pig_noise": {
+    "path": "assets/sound/event_pig_noise_74050278045e.wav",
+    "kind": "sound",
+    "sha256": "74050278045eb8d6447fc76e0a5d0904b9ce65dbf5c92b77ed631a8c0c8754c5",
+    "size": 769684
+  },
+  "event_moan": {
+    "path": "assets/sound/event_moan_711029c5cc12.wav",
+    "kind": "sound",
+    "sha256": "711029c5cc128337ef361a582e2cd14419386fab62bbb3bbb35dda3452cdead2",
+    "size": 903988
+  },
+  "event_ingrate": {
+    "path": "assets/sound/event_ingrate_0cd3ffa446e0.wav",
+    "kind": "sound",
+    "sha256": "0cd3ffa446e0945c98e8deceb88774565a3ec969bc838a2d38086458df743977",
+    "size": 1551078
+  },
+  "event_footsteps": {
+    "path": "assets/sound/event_footsteps_e98ee9b75d84.wav",
+    "kind": "sound",
+    "sha256": "e98ee9b75d843e97bd8cc6650d0dccb2e11c9f214ede98316b8aa1ddd3166199",
+    "size": 74980
+  },
+  "event_elevator": {
+    "path": "assets/sound/event_elevator_ccde9c91cd21.wav",
+    "kind": "sound",
+    "sha256": "ccde9c91cd210916c5d6d8fbfd55e55958bbac2e8b8908b0ce25cf34994ce601",
+    "size": 506676
+  },
+  "event_ecto_goggles": {
+    "path": "assets/sound/event_ecto_goggles_50f58d555528.wav",
+    "kind": "sound",
+    "sha256": "50f58d555528310bf5fef7982faca3d471c437003cccca9945b8fbd1c3275f4d",
+    "size": 800972
+  },
+  "event_circle": {
+    "path": "assets/sound/event_circle_225d295fe93e.wav",
+    "kind": "sound",
+    "sha256": "225d295fe93e48fa062f89942347416a47e320e6a19c8365b715d2000b47b265",
+    "size": 917694
+  },
+  "event_ciocarlia": {
+    "path": "assets/sound/event_ciocarlia_52e9974d5d63.wav",
+    "kind": "sound",
+    "sha256": "52e9974d5d6352bd1109dbaa1fe962615dbba7a201a1b44b94940bc56f027617",
+    "size": 3184096
+  },
+  "event_breath": {
+    "path": "assets/sound/event_breath_e667d666af53.wav",
+    "kind": "sound",
+    "sha256": "e667d666af53967e751becbe527d7b05ead03b8b249980bb56196a20c8c4a78f",
+    "size": 454632
+  }
+}

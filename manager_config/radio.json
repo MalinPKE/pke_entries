@@ -218,8 +218,8 @@
         "activity_max": 79,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 5,
-        "duration_max_s": 15,
+        "duration_min_s": 5.0,
+        "duration_max_s": 15.0,
         "effect_profile": "none",
         "ambient_enabled": true,
         "voice_interactive": false,
@@ -250,8 +250,8 @@
         "activity_max": 49,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 9,
-        "duration_max_s": 21,
+        "duration_min_s": 9.0,
+        "duration_max_s": 21.0,
         "effect_profile": "none",
         "ambient_enabled": true,
         "voice_interactive": false,
@@ -266,8 +266,8 @@
         "activity_max": 89,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 7,
-        "duration_max_s": 20,
+        "duration_min_s": 7.0,
+        "duration_max_s": 20.0,
         "effect_profile": "none",
         "ambient_enabled": true,
         "voice_interactive": false,
@@ -298,8 +298,8 @@
         "activity_max": 29,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 7,
-        "duration_max_s": 12,
+        "duration_min_s": 7.0,
+        "duration_max_s": 12.0,
         "effect_profile": "heavy_low",
         "ambient_enabled": true,
         "voice_interactive": false,
@@ -314,8 +314,8 @@
         "activity_max": 19,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 10,
-        "duration_max_s": 20,
+        "duration_min_s": 10.0,
+        "duration_max_s": 20.0,
         "effect_profile": "none",
         "ambient_enabled": true,
         "voice_interactive": false,
@@ -663,175 +663,7 @@
     ],
     "SoundChannels": [
       {
-        "sound_id": "event_breath",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_breath",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_breath",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "event_ciocarlia",
-        "channel_id": 3
-      },
-      {
-        "sound_id": "event_circle",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_circle",
-        "channel_id": 5
-      },
-      {
-        "sound_id": "event_ecto_goggles",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_ecto_goggles",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_ecto_goggles",
-        "channel_id": 3
-      },
-      {
-        "sound_id": "event_ecto_goggles",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "event_ecto_goggles",
-        "channel_id": 5
-      },
-      {
-        "sound_id": "event_ecto_goggles",
-        "channel_id": 6
-      },
-      {
-        "sound_id": "event_elevator",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_elevator",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_elevator",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "event_footsteps",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_footsteps",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_footsteps",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "event_ingrate",
-        "channel_id": 6
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 3
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 5
-      },
-      {
-        "sound_id": "event_uhoh",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_uhoh",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_uhoh",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "long_birthright",
-        "channel_id": 6
-      },
-      {
-        "sound_id": "long_call",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "long_call",
-        "channel_id": 3
-      },
-      {
-        "sound_id": "long_call",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "long_pain",
-        "channel_id": 6
-      },
-      {
-        "sound_id": "long_voice4",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "long_voice4",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "long_whiskey",
-        "channel_id": 3
-      },
-      {
-        "sound_id": "voice_pig_body",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "voice_pig_body",
-        "channel_id": 6
-      },
-      {
-        "sound_id": "voice_ryan_hello",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "voice_ryan_hello",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "ben",
-        "channel_id": 0
-      },
-      {
-        "sound_id": "ben_laugh",
-        "channel_id": 0
-      },
-      {
-        "sound_id": "ben_ugh",
-        "channel_id": 0
-      },
-      {
-        "sound_id": "ben_yes",
+        "sound_id": "ben_hangup",
         "channel_id": 0
       },
       {
@@ -839,15 +671,23 @@
         "channel_id": 0
       },
       {
-        "sound_id": "ben_hangup",
+        "sound_id": "ben_yes",
         "channel_id": 0
       },
       {
-        "sound_id": "creation1",
-        "channel_id": 5
+        "sound_id": "ben_ugh",
+        "channel_id": 0
       },
       {
-        "sound_id": "creation2",
+        "sound_id": "ben_laugh",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "ben",
+        "channel_id": 0
+      },
+      {
+        "sound_id": "creation4",
         "channel_id": 5
       },
       {
@@ -855,16 +695,160 @@
         "channel_id": 5
       },
       {
-        "sound_id": "creation4",
+        "sound_id": "creation2",
         "channel_id": 5
+      },
+      {
+        "sound_id": "creation1",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "voice3",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice3",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice2",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice2",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice1",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice1",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "voice_imstillhere",
+        "channel_id": 4
       },
       {
         "sound_id": "voice_devil",
         "channel_id": 4
       },
       {
-        "sound_id": "voice_imstillhere",
+        "sound_id": "long_whiskey",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "long_voice4",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_voice4",
         "channel_id": 4
+      },
+      {
+        "sound_id": "long_sayings",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "long_pain",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "long_call",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_call",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "long_call",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_black_slime",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_black_slime",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "long_birthright",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_whispering",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_whispering",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_whispering",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_uhoh",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_uhoh",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_uhoh",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_pig_noise",
+        "channel_id": 5
       },
       {
         "sound_id": "event_moan",
@@ -879,64 +863,80 @@
         "channel_id": 4
       },
       {
-        "sound_id": "event_pig_noise",
+        "sound_id": "event_ingrate",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "event_footsteps",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_footsteps",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_footsteps",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_elevator",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_elevator",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_elevator",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 4
+      },
+      {
+        "sound_id": "event_ecto_goggles",
         "channel_id": 5
       },
       {
-        "sound_id": "event_whispering",
-        "channel_id": 2
+        "sound_id": "event_ecto_goggles",
+        "channel_id": 6
       },
       {
-        "sound_id": "event_whispering",
+        "sound_id": "event_circle",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_circle",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "event_ciocarlia",
         "channel_id": 3
       },
       {
-        "sound_id": "event_whispering",
-        "channel_id": 4
+        "sound_id": "event_breath",
+        "channel_id": 1
       },
       {
-        "sound_id": "long_ambienttv",
+        "sound_id": "event_breath",
         "channel_id": 2
       },
       {
-        "sound_id": "long_ambienttv",
+        "sound_id": "event_breath",
         "channel_id": 4
-      },
-      {
-        "sound_id": "long_black_slime",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "long_black_slime",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "voice1",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "voice1",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "voice2",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "voice2",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "voice3",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "voice3",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "long_sayings",
-        "channel_id": 3
       }
     ],
     "EffectProfiles": [
