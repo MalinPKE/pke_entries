@@ -15,7 +15,7 @@
       },
       {
         "event_id": "creation",
-        "enabled": true,
+        "enabled": false,
         "name": "Creation keyword event",
         "mode": "radio",
         "program_id": null,
@@ -45,6 +45,28 @@
         "priority": 20,
         "reset_policy": "manual_only",
         "state_storage": "disk"
+      },
+      {
+        "event_id": "elevator",
+        "enabled": true,
+        "name": "elevator",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 100,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
+      },
+      {
+        "event_id": "ryan_hello",
+        "enabled": true,
+        "name": "ryan hello",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 100,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
       }
     ],
     "EventChannels": [
@@ -63,6 +85,18 @@
       {
         "event_id": "your_event",
         "channel_id": 6
+      },
+      {
+        "event_id": "elevator",
+        "channel_id": 0
+      },
+      {
+        "event_id": "elevator",
+        "channel_id": 4
+      },
+      {
+        "event_id": "ryan_hello",
+        "channel_id": 4
       }
     ],
     "EventStates": [
@@ -129,6 +163,26 @@
       {
         "event_id": "sword_example",
         "state_id": "found",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "elevator",
+        "state_id": "idle",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "ryan_hello",
+        "state_id": "idle",
         "timer_kind": "none",
         "timeout_s": null,
         "timeout_operator": null,
@@ -231,7 +285,7 @@
       {
         "rule_id": "creation_keyword",
         "event_id": "creation",
-        "enabled": true,
+        "enabled": false,
         "from_state": "idle",
         "trigger": "voice_input",
         "priority": 10,
@@ -316,6 +370,42 @@
         "on_failure_state": "keep",
         "cooldown_s": 0,
         "max_fires_session": 1,
+        "consume_input": true
+      },
+      {
+        "rule_id": "elevator_respond",
+        "event_id": "elevator",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "elevator_keywords",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1.0,
+        "action_set": "elevator_response",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ryan_hello_respond",
+        "event_id": "ryan_hello",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "ryan_hello_keywords",
+        "activity_min": 84,
+        "activity_max": 98,
+        "probability": 0.2,
+        "action_set": "ryan_hello_response",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
         "consume_input": true
       }
     ],
@@ -462,6 +552,45 @@
         "image_asset": null,
         "duration_s": null,
         "required": true
+      },
+      {
+        "action_set": "ben_name_response",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "ben",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "elevator_response",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "event_elevator",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "ryan_hello_response",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "voice_ryan_hello",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
       }
     ],
     "EventKeywords": [
@@ -508,6 +637,22 @@
       {
         "keyword_group": "ben_name",
         "keyword": "den"
+      },
+      {
+        "keyword_group": "elevator_keywords",
+        "keyword": "egon"
+      },
+      {
+        "keyword_group": "elevator_keywords",
+        "keyword": "ray"
+      },
+      {
+        "keyword_group": "ryan_hello_keywords",
+        "keyword": "hello"
+      },
+      {
+        "keyword_group": "ryan_hello_keywords",
+        "keyword": "hi"
       },
       {
         "keyword_group": "ben_name",

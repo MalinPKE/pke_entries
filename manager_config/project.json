@@ -8,7 +8,7 @@
         "enabled": true,
         "asset_key": "event_breath",
         "activity_min": 1,
-        "activity_max": 100,
+        "activity_max": 10,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -23,8 +23,8 @@
         "sound_id": "event_ciocarlia",
         "enabled": true,
         "asset_key": "event_ciocarlia",
-        "activity_min": 1,
-        "activity_max": 100,
+        "activity_min": 28,
+        "activity_max": 37,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -39,8 +39,8 @@
         "sound_id": "event_circle",
         "enabled": true,
         "asset_key": "event_circle",
-        "activity_min": 1,
-        "activity_max": 100,
+        "activity_min": 32,
+        "activity_max": 48,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -55,8 +55,8 @@
         "sound_id": "event_ecto_goggles",
         "enabled": true,
         "asset_key": "event_ecto_goggles",
-        "activity_min": 1,
-        "activity_max": 100,
+        "activity_min": 0,
+        "activity_max": 0,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -71,15 +71,15 @@
         "sound_id": "event_elevator",
         "enabled": true,
         "asset_key": "event_elevator",
-        "activity_min": 1,
+        "activity_min": 0,
         "activity_max": 100,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
         "duration_max_s": null,
         "effect_profile": "none",
-        "ambient_enabled": true,
-        "voice_interactive": false,
+        "ambient_enabled": false,
+        "voice_interactive": true,
         "plays_min": 1,
         "plays_max": 1
       },
@@ -87,8 +87,8 @@
         "sound_id": "event_footsteps",
         "enabled": true,
         "asset_key": "event_footsteps",
-        "activity_min": 6,
-        "activity_max": 100,
+        "activity_min": 1,
+        "activity_max": 10,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -103,8 +103,8 @@
         "sound_id": "event_ingrate",
         "enabled": true,
         "asset_key": "event_ingrate",
-        "activity_min": 51,
-        "activity_max": 100,
+        "activity_min": 32,
+        "activity_max": 34,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -119,8 +119,8 @@
         "sound_id": "event_moan",
         "enabled": true,
         "asset_key": "event_moan",
-        "activity_min": 11,
-        "activity_max": 100,
+        "activity_min": 46,
+        "activity_max": 69,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -135,15 +135,15 @@
         "sound_id": "event_pig_noise",
         "enabled": true,
         "asset_key": "event_pig_noise",
-        "activity_min": 40,
-        "activity_max": 69,
+        "activity_min": 25,
+        "activity_max": 39,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
         "duration_max_s": null,
         "effect_profile": "subtle_distortions",
         "ambient_enabled": true,
-        "voice_interactive": false,
+        "voice_interactive": true,
         "plays_min": 1,
         "plays_max": 1
       },
@@ -152,7 +152,7 @@
         "enabled": true,
         "asset_key": "event_robotvoice",
         "activity_min": 1,
-        "activity_max": 100,
+        "activity_max": 49,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -167,8 +167,8 @@
         "sound_id": "event_uhoh",
         "enabled": true,
         "asset_key": "event_uhoh",
-        "activity_min": 20,
-        "activity_max": 49,
+        "activity_min": 36,
+        "activity_max": 41,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -183,8 +183,8 @@
         "sound_id": "event_whispering",
         "enabled": true,
         "asset_key": "event_whispering",
-        "activity_min": 20,
-        "activity_max": 49,
+        "activity_min": 77,
+        "activity_max": 81,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -199,11 +199,11 @@
         "sound_id": "long_ambienttv",
         "enabled": true,
         "asset_key": "long_ambienttv",
-        "activity_min": 10,
-        "activity_max": 49,
+        "activity_min": 30,
+        "activity_max": 32,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 5.0,
+        "duration_min_s": 15.0,
         "duration_max_s": 20.0,
         "effect_profile": "subtle_distortions",
         "ambient_enabled": true,
@@ -215,12 +215,12 @@
         "sound_id": "long_birthright",
         "enabled": true,
         "asset_key": "long_birthright",
-        "activity_min": 50,
-        "activity_max": 79,
+        "activity_min": 30,
+        "activity_max": 36,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 5.0,
-        "duration_max_s": 15.0,
+        "duration_min_s": 20.0,
+        "duration_max_s": 30.0,
         "effect_profile": "none",
         "ambient_enabled": true,
         "voice_interactive": false,
@@ -231,8 +231,8 @@
         "sound_id": "long_black_slime",
         "enabled": true,
         "asset_key": "long_black_slime",
-        "activity_min": 29,
-        "activity_max": 59,
+        "activity_min": 70,
+        "activity_max": 78,
         "playback_mode": "snippet",
         "start_mode": "random",
         "duration_min_s": 2.0,
@@ -247,12 +247,12 @@
         "sound_id": "long_call",
         "enabled": true,
         "asset_key": "long_call",
-        "activity_min": 19,
-        "activity_max": 49,
+        "activity_min": 20,
+        "activity_max": 21,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 9.0,
-        "duration_max_s": 21.0,
+        "duration_min_s": 20.0,
+        "duration_max_s": 45.0,
         "effect_profile": "none",
         "ambient_enabled": true,
         "voice_interactive": false,
@@ -263,11 +263,11 @@
         "sound_id": "long_pain",
         "enabled": true,
         "asset_key": "long_pain",
-        "activity_min": 70,
-        "activity_max": 89,
+        "activity_min": 95,
+        "activity_max": 95,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 7.0,
+        "duration_min_s": 15.0,
         "duration_max_s": 20.0,
         "effect_profile": "none",
         "ambient_enabled": true,
@@ -279,13 +279,13 @@
         "sound_id": "long_sayings",
         "enabled": true,
         "asset_key": "long_sayings",
-        "activity_min": 50,
+        "activity_min": 77,
         "activity_max": 79,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 8.0,
-        "duration_max_s": 12.0,
-        "effect_profile": "subtle_distortions",
+        "duration_min_s": 15.0,
+        "duration_max_s": 40.0,
+        "effect_profile": "fade",
         "ambient_enabled": true,
         "voice_interactive": false,
         "plays_min": 1,
@@ -296,11 +296,11 @@
         "enabled": true,
         "asset_key": "long_voice4",
         "activity_min": 5,
-        "activity_max": 29,
+        "activity_max": 10,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 7.0,
-        "duration_max_s": 12.0,
+        "duration_min_s": 10.0,
+        "duration_max_s": 20.0,
         "effect_profile": "heavy_low",
         "ambient_enabled": true,
         "voice_interactive": false,
@@ -311,12 +311,12 @@
         "sound_id": "long_whiskey",
         "enabled": true,
         "asset_key": "long_whiskey",
-        "activity_min": 1,
-        "activity_max": 19,
+        "activity_min": 9,
+        "activity_max": 17,
         "playback_mode": "snippet",
         "start_mode": "random",
-        "duration_min_s": 10.0,
-        "duration_max_s": 20.0,
+        "duration_min_s": 30.0,
+        "duration_max_s": 35.0,
         "effect_profile": "none",
         "ambient_enabled": true,
         "voice_interactive": false,
@@ -327,8 +327,8 @@
         "sound_id": "voice_devil",
         "enabled": true,
         "asset_key": "voice_devil",
-        "activity_min": 80,
-        "activity_max": 100,
+        "activity_min": 36,
+        "activity_max": 50,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -359,15 +359,15 @@
         "sound_id": "voice_pig_body",
         "enabled": true,
         "asset_key": "voice_pig_body",
-        "activity_min": 40,
-        "activity_max": 69,
+        "activity_min": 10,
+        "activity_max": 30,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
         "duration_max_s": null,
         "effect_profile": "none",
         "ambient_enabled": true,
-        "voice_interactive": false,
+        "voice_interactive": true,
         "plays_min": 1,
         "plays_max": 1
       },
@@ -375,15 +375,15 @@
         "sound_id": "voice_ryan_hello",
         "enabled": true,
         "asset_key": "voice_ryan_hello",
-        "activity_min": 20,
-        "activity_max": 49,
+        "activity_min": 85,
+        "activity_max": 97,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
         "duration_max_s": null,
         "effect_profile": "none",
-        "ambient_enabled": true,
-        "voice_interactive": false,
+        "ambient_enabled": false,
+        "voice_interactive": true,
         "plays_min": 1,
         "plays_max": 1
       },
@@ -391,8 +391,8 @@
         "sound_id": "voice1",
         "enabled": true,
         "asset_key": "voice1",
-        "activity_min": 20,
-        "activity_max": 49,
+        "activity_min": 33,
+        "activity_max": 35,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -407,8 +407,8 @@
         "sound_id": "voice2",
         "enabled": true,
         "asset_key": "voice2",
-        "activity_min": 20,
-        "activity_max": 49,
+        "activity_min": 33,
+        "activity_max": 35,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -423,8 +423,8 @@
         "sound_id": "voice3",
         "enabled": true,
         "asset_key": "voice3",
-        "activity_min": 20,
-        "activity_max": 49,
+        "activity_min": 33,
+        "activity_max": 35,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -439,8 +439,8 @@
         "sound_id": "creation1",
         "enabled": true,
         "asset_key": "creation1",
-        "activity_min": 80,
-        "activity_max": 100,
+        "activity_min": 51,
+        "activity_max": 56,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -455,8 +455,8 @@
         "sound_id": "creation2",
         "enabled": true,
         "asset_key": "creation2",
-        "activity_min": 80,
-        "activity_max": 100,
+        "activity_min": 51,
+        "activity_max": 56,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -471,8 +471,8 @@
         "sound_id": "creation3",
         "enabled": true,
         "asset_key": "creation3",
-        "activity_min": 80,
-        "activity_max": 100,
+        "activity_min": 51,
+        "activity_max": 56,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -487,8 +487,8 @@
         "sound_id": "creation4",
         "enabled": true,
         "asset_key": "creation4",
-        "activity_min": 80,
-        "activity_max": 100,
+        "activity_min": 51,
+        "activity_max": 56,
         "playback_mode": "full",
         "start_mode": "beginning",
         "duration_min_s": null,
@@ -594,6 +594,618 @@
         "voice_interactive": true,
         "plays_min": 1,
         "plays_max": 1
+      },
+      {
+        "sound_id": "alu",
+        "asset_key": "alu",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 99,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T05:59:26.019863+00:00"
+      },
+      {
+        "sound_id": "ave_verum_corpus",
+        "asset_key": "ave_verum_corpus",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 17,
+        "activity_max": 26,
+        "playback_mode": "snippet",
+        "start_mode": "beginning",
+        "duration_min_s": 40.0,
+        "duration_max_s": 50.0,
+        "effect_profile": "old_radio_glitch",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T06:02:15.662073+00:00"
+      },
+      {
+        "sound_id": "birds",
+        "asset_key": "birds",
+        "enabled": true,
+        "ambient_enabled": false,
+        "voice_interactive": false,
+        "activity_min": 42,
+        "activity_max": 42,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T06:06:08.563797+00:00"
+      },
+      {
+        "sound_id": "construction",
+        "asset_key": "construction",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 33,
+        "activity_max": 35,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 20.0,
+        "duration_max_s": 30.0,
+        "effect_profile": "subtle_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:34:15.832134+00:00"
+      },
+      {
+        "sound_id": "dawnenemy",
+        "asset_key": "dawnenemy",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 45,
+        "activity_max": 47,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:34:37.557607+00:00"
+      },
+      {
+        "sound_id": "faith1",
+        "asset_key": "faith1",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 3,
+        "activity_max": 10,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "heavy_no_fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:35:07.491667+00:00"
+      },
+      {
+        "sound_id": "faith2",
+        "asset_key": "faith2",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 3,
+        "activity_max": 10,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "heavy_no_fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:35:17.759051+00:00"
+      },
+      {
+        "sound_id": "faith3",
+        "asset_key": "faith3",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 3,
+        "activity_max": 10,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "heavy_no_fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:35:34.419976+00:00"
+      },
+      {
+        "sound_id": "fire",
+        "asset_key": "fire",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 95,
+        "activity_max": 98,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:35:45.645988+00:00"
+      },
+      {
+        "sound_id": "ghostmonster1",
+        "asset_key": "ghostmonster1",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 56,
+        "activity_max": 60,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:36:11.248147+00:00"
+      },
+      {
+        "sound_id": "ghostmonster2",
+        "asset_key": "ghostmonster2",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 56,
+        "activity_max": 60,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:36:41.517128+00:00"
+      },
+      {
+        "sound_id": "ghostmonster3",
+        "asset_key": "ghostmonster3",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 56,
+        "activity_max": 60,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:36:52.408339+00:00"
+      },
+      {
+        "sound_id": "ghostmonster4",
+        "asset_key": "ghostmonster4",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 56,
+        "activity_max": 60,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:37:07.409645+00:00"
+      },
+      {
+        "sound_id": "hell",
+        "asset_key": "hell",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 66,
+        "activity_max": 66,
+        "playback_mode": "snippet",
+        "start_mode": "beginning",
+        "duration_min_s": 40.0,
+        "duration_max_s": 60.0,
+        "effect_profile": "fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:37:41.866612+00:00"
+      },
+      {
+        "sound_id": "its_a_fine_day",
+        "asset_key": "its_a_fine_day",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 40,
+        "activity_max": 40,
+        "playback_mode": "snippet",
+        "start_mode": "random",
+        "duration_min_s": 50.0,
+        "duration_max_s": 100.0,
+        "effect_profile": "fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:37:56.358992+00:00"
+      },
+      {
+        "sound_id": "mantra",
+        "asset_key": "mantra",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 63,
+        "activity_max": 65,
+        "playback_mode": "snippet",
+        "start_mode": "beginning",
+        "duration_min_s": 30.0,
+        "duration_max_s": 50.0,
+        "effect_profile": "fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:38:17.014077+00:00"
+      },
+      {
+        "sound_id": "neverhood1",
+        "asset_key": "neverhood1",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 53,
+        "activity_max": 56,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:39:14.209463+00:00"
+      },
+      {
+        "sound_id": "neverhood2",
+        "asset_key": "neverhood2",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 0,
+        "activity_max": 100,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:40:20.791917+00:00"
+      },
+      {
+        "sound_id": "oddity1",
+        "asset_key": "oddity1",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 50,
+        "activity_max": 52,
+        "playback_mode": "snippet",
+        "start_mode": "beginning",
+        "duration_min_s": 10.0,
+        "duration_max_s": 20.0,
+        "effect_profile": "subtle_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:40:35.069740+00:00"
+      },
+      {
+        "sound_id": "oddity2",
+        "asset_key": "oddity2",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 50,
+        "activity_max": 52,
+        "playback_mode": "snippet",
+        "start_mode": "beginning",
+        "duration_min_s": 10.0,
+        "duration_max_s": 20.0,
+        "effect_profile": "subtle_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:40:46.765361+00:00"
+      },
+      {
+        "sound_id": "prompt1",
+        "asset_key": "prompt1",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 5,
+        "activity_max": 10,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:41:06.421542+00:00"
+      },
+      {
+        "sound_id": "prompt2",
+        "asset_key": "prompt2",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 37,
+        "activity_max": 42,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:41:19.162129+00:00"
+      },
+      {
+        "sound_id": "prompt3",
+        "asset_key": "prompt3",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 63,
+        "activity_max": 68,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:41:33.485602+00:00"
+      },
+      {
+        "sound_id": "prompt4",
+        "asset_key": "prompt4",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 84,
+        "activity_max": 89,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:41:46.073402+00:00"
+      },
+      {
+        "sound_id": "prowler1",
+        "asset_key": "prowler1",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 61,
+        "activity_max": 70,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:42:07.997162+00:00"
+      },
+      {
+        "sound_id": "prowler2",
+        "asset_key": "prowler2",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 61,
+        "activity_max": 70,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:42:23.443972+00:00"
+      },
+      {
+        "sound_id": "prowler3",
+        "asset_key": "prowler3",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 61,
+        "activity_max": 70,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:42:35.404683+00:00"
+      },
+      {
+        "sound_id": "reaper1",
+        "asset_key": "reaper1",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 80,
+        "activity_max": 90,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "heavy_no_fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:43:00.291498+00:00"
+      },
+      {
+        "sound_id": "reaper2",
+        "asset_key": "reaper2",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 80,
+        "activity_max": 90,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "heavy_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:43:21.961098+00:00"
+      },
+      {
+        "sound_id": "reaper3",
+        "asset_key": "reaper3",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 80,
+        "activity_max": 90,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "heavy_no_fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:43:33.412039+00:00"
+      },
+      {
+        "sound_id": "safety",
+        "asset_key": "safety",
+        "enabled": true,
+        "ambient_enabled": false,
+        "voice_interactive": false,
+        "activity_min": 77,
+        "activity_max": 77,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "none",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:44:26.203699+00:00"
+      },
+      {
+        "sound_id": "shovel",
+        "asset_key": "shovel",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 81,
+        "activity_max": 84,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:44:40.471509+00:00"
+      },
+      {
+        "sound_id": "suffering",
+        "asset_key": "suffering",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 65,
+        "activity_max": 68,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:44:52.097707+00:00"
+      },
+      {
+        "sound_id": "tones",
+        "asset_key": "tones",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 78,
+        "activity_max": 78,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "heavy_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:45:11.255556+00:00"
+      },
+      {
+        "sound_id": "twobytwo",
+        "asset_key": "twobytwo",
+        "enabled": true,
+        "ambient_enabled": true,
+        "voice_interactive": false,
+        "activity_min": 70,
+        "activity_max": 73,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "subtle_distortions",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-13T23:45:23.422557+00:00"
+      },
+      {
+        "sound_id": "fox",
+        "asset_key": "fox",
+        "enabled": true,
+        "ambient_enabled": false,
+        "voice_interactive": false,
+        "activity_min": 12,
+        "activity_max": 12,
+        "playback_mode": "full",
+        "start_mode": "beginning",
+        "duration_min_s": null,
+        "duration_max_s": null,
+        "effect_profile": "very_subtle_pitch_no_fade",
+        "plays_min": 1,
+        "plays_max": 1,
+        "added_at": "2026-10-14T02:22:23.934376+00:00"
       }
     ],
     "RadioChannels": [
@@ -664,19 +1276,7 @@
     ],
     "SoundChannels": [
       {
-        "sound_id": "ben_hangup",
-        "channel_id": 0
-      },
-      {
-        "sound_id": "ben_no",
-        "channel_id": 0
-      },
-      {
-        "sound_id": "ben_yes",
-        "channel_id": 0
-      },
-      {
-        "sound_id": "ben_ugh",
+        "sound_id": "ben",
         "channel_id": 0
       },
       {
@@ -684,72 +1284,68 @@
         "channel_id": 0
       },
       {
-        "sound_id": "ben",
+        "sound_id": "ben_ugh",
         "channel_id": 0
       },
       {
-        "sound_id": "creation4",
-        "channel_id": 5
+        "sound_id": "ben_yes",
+        "channel_id": 0
       },
       {
-        "sound_id": "creation3",
-        "channel_id": 5
+        "sound_id": "ben_no",
+        "channel_id": 0
       },
       {
-        "sound_id": "creation2",
-        "channel_id": 5
+        "sound_id": "ben_hangup",
+        "channel_id": 0
       },
       {
-        "sound_id": "creation1",
-        "channel_id": 5
-      },
-      {
-        "sound_id": "voice3",
+        "sound_id": "event_whispering",
         "channel_id": 2
       },
       {
-        "sound_id": "voice3",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "voice2",
+        "sound_id": "long_black_slime",
         "channel_id": 2
       },
       {
-        "sound_id": "voice2",
-        "channel_id": 4
+        "sound_id": "event_elevator",
+        "channel_id": 0
       },
       {
-        "sound_id": "voice1",
+        "sound_id": "event_circle",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "event_breath",
         "channel_id": 2
       },
       {
-        "sound_id": "voice1",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "voice_ryan_hello",
+        "sound_id": "event_footsteps",
         "channel_id": 2
       },
       {
-        "sound_id": "voice_ryan_hello",
-        "channel_id": 4
+        "sound_id": "event_moan",
+        "channel_id": 2
       },
       {
-        "sound_id": "voice_pig_body",
-        "channel_id": 4
+        "sound_id": "event_uhoh",
+        "channel_id": 2
       },
       {
-        "sound_id": "voice_pig_body",
-        "channel_id": 6
+        "sound_id": "long_call",
+        "channel_id": 2
       },
       {
-        "sound_id": "voice_imstillhere",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "voice_devil",
-        "channel_id": 4
+        "sound_id": "event_ciocarlia",
+        "channel_id": 3
       },
       {
         "sound_id": "long_whiskey",
@@ -757,139 +1353,195 @@
       },
       {
         "sound_id": "long_voice4",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "long_voice4",
         "channel_id": 4
       },
       {
-        "sound_id": "long_sayings",
-        "channel_id": 3
+        "sound_id": "voice_imstillhere",
+        "channel_id": 0
       },
       {
-        "sound_id": "long_pain",
-        "channel_id": 6
-      },
-      {
-        "sound_id": "long_call",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "long_call",
-        "channel_id": 3
-      },
-      {
-        "sound_id": "long_call",
+        "sound_id": "voice1",
         "channel_id": 4
       },
       {
-        "sound_id": "long_black_slime",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "long_black_slime",
+        "sound_id": "voice2",
         "channel_id": 4
       },
       {
-        "sound_id": "long_birthright",
-        "channel_id": 6
-      },
-      {
-        "sound_id": "long_ambienttv",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "long_ambienttv",
+        "sound_id": "voice3",
         "channel_id": 4
-      },
-      {
-        "sound_id": "event_whispering",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_whispering",
-        "channel_id": 3
-      },
-      {
-        "sound_id": "event_whispering",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "event_uhoh",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_uhoh",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_uhoh",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 3
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "channel_id": 5
       },
       {
         "sound_id": "event_pig_noise",
         "channel_id": 5
       },
       {
-        "sound_id": "event_moan",
-        "channel_id": 1
-      },
-      {
-        "sound_id": "event_moan",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_moan",
-        "channel_id": 4
-      },
-      {
         "sound_id": "event_ingrate",
         "channel_id": 6
       },
       {
-        "sound_id": "event_footsteps",
+        "sound_id": "long_birthright",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "long_pain",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "voice_devil",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "long_sayings",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "oddity2",
         "channel_id": 1
       },
       {
-        "sound_id": "event_footsteps",
-        "channel_id": 2
-      },
-      {
-        "sound_id": "event_footsteps",
-        "channel_id": 4
-      },
-      {
-        "sound_id": "event_elevator",
+        "sound_id": "oddity1",
         "channel_id": 1
       },
       {
-        "sound_id": "event_elevator",
+        "sound_id": "prompt1",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "prompt2",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "prompt3",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "prompt4",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "tones",
+        "channel_id": 1
+      },
+      {
+        "sound_id": "construction",
         "channel_id": 2
       },
       {
-        "sound_id": "event_elevator",
-        "channel_id": 4
+        "sound_id": "shovel",
+        "channel_id": 2
+      },
+      {
+        "sound_id": "its_a_fine_day",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "dawnenemy",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "mantra",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "twobytwo",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "ghostmonster1",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "ghostmonster2",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "ghostmonster3",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation1",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation2",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation4",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "fire",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "hell",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "suffering",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "birds",
+        "channel_id": 7
+      },
+      {
+        "sound_id": "safety",
+        "channel_id": 7
+      },
+      {
+        "sound_id": "neverhood1",
+        "channel_id": 3
+      },
+      {
+        "sound_id": "faith1",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "faith2",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "faith3",
+        "channel_id": 6
+      },
+      {
+        "sound_id": "reaper3",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "reaper2",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "reaper1",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "prowler3",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "prowler2",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "prowler1",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "ghostmonster4",
+        "channel_id": 5
+      },
+      {
+        "sound_id": "creation3",
+        "channel_id": 5
       },
       {
         "sound_id": "event_ecto_goggles",
@@ -916,28 +1568,24 @@
         "channel_id": 6
       },
       {
-        "sound_id": "event_circle",
-        "channel_id": 1
+        "sound_id": "fox",
+        "channel_id": 7
       },
       {
-        "sound_id": "event_circle",
-        "channel_id": 5
+        "sound_id": "alu",
+        "channel_id": 6
       },
       {
-        "sound_id": "event_ciocarlia",
+        "sound_id": "ave_verum_corpus",
         "channel_id": 3
       },
       {
-        "sound_id": "event_breath",
-        "channel_id": 1
+        "sound_id": "neverhood2",
+        "channel_id": 0
       },
       {
-        "sound_id": "event_breath",
+        "sound_id": "voice_ryan_hello",
         "channel_id": 2
-      },
-      {
-        "sound_id": "event_breath",
-        "channel_id": 4
       }
     ],
     "VoiceRules": [
@@ -1203,8 +1851,8 @@
         "pitch_ratio_max": 1.0,
         "reverse_probability": 0.0,
         "static_probability": 0.0,
-        "fade_min_s": 2.0,
-        "fade_max_s": 3.0,
+        "fade_min_s": 3.0,
+        "fade_max_s": 5.0,
         "definition": "Fade in and out. Fade duration range remains to be tuned."
       },
       {
@@ -1214,12 +1862,12 @@
         "extra_static_mode": "randomized",
         "fade_mode": "off",
         "preserve_speech": false,
-        "pitch_ratio_min": 0.8,
+        "pitch_ratio_min": 0.7,
         "pitch_ratio_max": 1.2,
         "reverse_probability": 0.2,
         "static_probability": 0.4,
-        "fade_min_s": 1.0,
-        "fade_max_s": 2.0,
+        "fade_min_s": 2.0,
+        "fade_max_s": 3.0,
         "definition": "Optional pitch shifts, reversal, and extra static. Do not force every effect each time."
       },
       {
@@ -1233,13 +1881,13 @@
         "pitch_ratio_max": 1.0,
         "reverse_probability": 0.22,
         "static_probability": 0.6,
-        "fade_min_s": 1.0,
-        "fade_max_s": 2.0,
+        "fade_min_s": 2.0,
+        "fade_max_s": 3.0,
         "definition": "Heavy randomized distortion. Final pitch ratio must never exceed 1.0."
       },
       {
         "profile_id": "subtle_pitch_change",
-        "pitch_mode": "subtle",
+        "pitch_mode": "subtle pitch",
         "reverse_mode": "off",
         "extra_static_mode": "light",
         "fade_mode": "off",
@@ -1248,24 +1896,54 @@
         "pitch_ratio_max": 1.2,
         "reverse_probability": 0.0,
         "static_probability": 0.2,
-        "fade_min_s": 1.0,
+        "fade_min_s": 2.0,
         "fade_max_s": 3.0,
         "definition": "Proposed profile: preserve voice clarity with light static and subtle pitch drift."
       },
       {
         "profile_id": "heavy_distortions",
-        "pitch_mode": "heavy",
+        "pitch_mode": "heavy distortions",
         "reverse_mode": "randomized",
-        "extra_static_mode": "randomized",
+        "extra_static_mode": "on",
         "fade_mode": "randomized",
         "preserve_speech": false,
         "pitch_ratio_min": 0.5,
         "pitch_ratio_max": 1.5,
         "reverse_probability": 0.2,
         "static_probability": 1.0,
-        "fade_min_s": 1.0,
-        "fade_max_s": 1.5,
+        "fade_min_s": 2.0,
+        "fade_max_s": 3.0,
         "definition": "Heavier distortions and extra static always applied."
+      },
+      {
+        "profile_id": "heavy_no_fade",
+        "pitch_mode": "randomized",
+        "reverse_mode": "randomized",
+        "extra_static_mode": "on",
+        "fade_mode": "off",
+        "preserve_speech": false,
+        "pitch_ratio_min": 0.5,
+        "pitch_ratio_max": 1.5,
+        "reverse_probability": 0.2,
+        "static_probability": 1.0,
+        "fade_min_s": 0.5,
+        "fade_max_s": 0.5,
+        "definition": null
+      },
+      {
+        "profile_id": "very_subtle_pitch_no_fade",
+        "pitch_mode": "randomized",
+        "reverse_mode": "off",
+        "extra_static_mode": "off",
+        "fade_mode": "off",
+        "preserve_speech": false,
+        "pitch_ratio_min": 0.9,
+        "pitch_ratio_max": 1.1,
+        "reverse_probability": 0.0,
+        "static_probability": 0.0,
+        "fade_min_s": 0.0,
+        "fade_max_s": 0.0,
+        "definition": null
       },
       {
         "profile_id": "old_radio_glitch",
@@ -1342,14 +2020,14 @@
       },
       {
         "setting_key": "ambient_gap_min_s",
-        "value": 150,
+        "value": 10.0,
         "value_type": "seconds",
         "basis": "tune",
         "definition": "Randomized recovery gap after a foreground sound."
       },
       {
         "setting_key": "ambient_gap_max_s",
-        "value": 450,
+        "value": 30.0,
         "value_type": "seconds",
         "basis": "tune",
         "definition": "Maximum recovery gap. Must be at least the minimum."
@@ -2509,7 +3187,7 @@
       },
       {
         "event_id": "creation",
-        "enabled": true,
+        "enabled": false,
         "name": "Creation keyword event",
         "mode": "radio",
         "program_id": null,
@@ -2539,6 +3217,28 @@
         "priority": 20,
         "reset_policy": "manual_only",
         "state_storage": "disk"
+      },
+      {
+        "event_id": "elevator",
+        "enabled": true,
+        "name": "elevator",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 100,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
+      },
+      {
+        "event_id": "ryan_hello",
+        "enabled": true,
+        "name": "ryan hello",
+        "mode": "radio",
+        "program_id": null,
+        "initial_state": "idle",
+        "priority": 100,
+        "reset_policy": "on_scope_exit",
+        "state_storage": "session"
       }
     ],
     "EventChannels": [
@@ -2557,6 +3257,18 @@
       {
         "event_id": "your_event",
         "channel_id": 6
+      },
+      {
+        "event_id": "elevator",
+        "channel_id": 0
+      },
+      {
+        "event_id": "elevator",
+        "channel_id": 4
+      },
+      {
+        "event_id": "ryan_hello",
+        "channel_id": 4
       }
     ],
     "EventStates": [
@@ -2623,6 +3335,26 @@
       {
         "event_id": "sword_example",
         "state_id": "found",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "elevator",
+        "state_id": "idle",
+        "timer_kind": "none",
+        "timeout_s": null,
+        "timeout_operator": null,
+        "reset_on_voice": false,
+        "pause_recording": false,
+        "pause_actions": false
+      },
+      {
+        "event_id": "ryan_hello",
+        "state_id": "idle",
         "timer_kind": "none",
         "timeout_s": null,
         "timeout_operator": null,
@@ -2725,7 +3457,7 @@
       {
         "rule_id": "creation_keyword",
         "event_id": "creation",
-        "enabled": true,
+        "enabled": false,
         "from_state": "idle",
         "trigger": "voice_input",
         "priority": 10,
@@ -2810,6 +3542,42 @@
         "on_failure_state": "keep",
         "cooldown_s": 0,
         "max_fires_session": 1,
+        "consume_input": true
+      },
+      {
+        "rule_id": "elevator_respond",
+        "event_id": "elevator",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "elevator_keywords",
+        "activity_min": 0,
+        "activity_max": 100,
+        "probability": 1.0,
+        "action_set": "elevator_response",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
+        "consume_input": true
+      },
+      {
+        "rule_id": "ryan_hello_respond",
+        "event_id": "ryan_hello",
+        "enabled": true,
+        "from_state": "idle",
+        "trigger": "voice_input",
+        "priority": 10,
+        "keyword_group": "ryan_hello_keywords",
+        "activity_min": 84,
+        "activity_max": 98,
+        "probability": 0.2,
+        "action_set": "ryan_hello_response",
+        "on_success_state": "keep",
+        "on_failure_state": "keep",
+        "cooldown_s": 0,
+        "max_fires_session": 0,
         "consume_input": true
       }
     ],
@@ -2956,6 +3724,45 @@
         "image_asset": null,
         "duration_s": null,
         "required": true
+      },
+      {
+        "action_set": "ben_name_response",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "ben",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "elevator_response",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "event_elevator",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
+      },
+      {
+        "action_set": "ryan_hello_response",
+        "step": 1,
+        "action_type": "play_sound",
+        "sound_id": "voice_ryan_hello",
+        "response_pool": null,
+        "message_text": null,
+        "color_hex": null,
+        "entry_id": null,
+        "image_asset": null,
+        "duration_s": null,
+        "required": true
       }
     ],
     "EventKeywords": [
@@ -3002,6 +3809,22 @@
       {
         "keyword_group": "ben_name",
         "keyword": "den"
+      },
+      {
+        "keyword_group": "elevator_keywords",
+        "keyword": "egon"
+      },
+      {
+        "keyword_group": "elevator_keywords",
+        "keyword": "ray"
+      },
+      {
+        "keyword_group": "ryan_hello_keywords",
+        "keyword": "hello"
+      },
+      {
+        "keyword_group": "ryan_hello_keywords",
+        "keyword": "hi"
       },
       {
         "keyword_group": "ben_name",
@@ -3181,74 +4004,9 @@
         "asset_file": null
       },
       {
-        "sound_id": "voice_ryan_hello",
+        "sound_id": "event_breath",
         "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/voice_ryan_hello_7d40667033a9.wav"
-      },
-      {
-        "sound_id": "voice_pig_body",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/voice_pig_body_41b605cb6c77.wav"
-      },
-      {
-        "sound_id": "long_whiskey",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/long_whiskey_141c959ad7ab.wav"
-      },
-      {
-        "sound_id": "long_voice4",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/long_voice4_8309eae8561a.wav"
-      },
-      {
-        "sound_id": "long_pain",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/long_pain_2822037ebe9a.wav"
-      },
-      {
-        "sound_id": "long_call",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/long_call_cb009f147a2b.wav"
-      },
-      {
-        "sound_id": "long_birthright",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/long_birthright_a3527bf92262.wav"
-      },
-      {
-        "sound_id": "event_uhoh",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/event_uhoh_4a5424a7df56.wav"
-      },
-      {
-        "sound_id": "event_robotvoice",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/event_robotvoice_c6c99c14dff5.wav"
-      },
-      {
-        "sound_id": "event_ingrate",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/event_ingrate_0cd3ffa446e0.wav"
-      },
-      {
-        "sound_id": "event_footsteps",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/event_footsteps_e98ee9b75d84.wav"
-      },
-      {
-        "sound_id": "event_elevator",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/event_elevator_ccde9c91cd21.wav"
-      },
-      {
-        "sound_id": "event_ecto_goggles",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/event_ecto_goggles_50f58d555528.wav"
-      },
-      {
-        "sound_id": "event_circle",
-        "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/event_circle_225d295fe93e.wav"
+        "asset_file": "assets/sound/event_breath_e667d666af53.wav"
       },
       {
         "sound_id": "event_ciocarlia",
@@ -3256,9 +4014,254 @@
         "asset_file": "assets/sound/event_ciocarlia_52e9974d5d63.wav"
       },
       {
-        "sound_id": "event_breath",
+        "sound_id": "event_circle",
         "source": "existing_radio_catalog",
-        "asset_file": "assets/sound/event_breath_e667d666af53.wav"
+        "asset_file": "assets/sound/event_circle_225d295fe93e.wav"
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/event_ecto_goggles_50f58d555528.wav"
+      },
+      {
+        "sound_id": "event_elevator",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/event_elevator_ccde9c91cd21.wav"
+      },
+      {
+        "sound_id": "event_footsteps",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/event_footsteps_e98ee9b75d84.wav"
+      },
+      {
+        "sound_id": "event_ingrate",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/event_ingrate_0cd3ffa446e0.wav"
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/event_robotvoice_c6c99c14dff5.wav"
+      },
+      {
+        "sound_id": "event_uhoh",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/event_uhoh_fd6e51b3dcad.wav"
+      },
+      {
+        "sound_id": "long_birthright",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/long_birthright_a3527bf92262.wav"
+      },
+      {
+        "sound_id": "long_call",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/long_call_cb009f147a2b.wav"
+      },
+      {
+        "sound_id": "long_pain",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/long_pain_2822037ebe9a.wav"
+      },
+      {
+        "sound_id": "long_voice4",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/long_voice4_8309eae8561a.wav"
+      },
+      {
+        "sound_id": "long_whiskey",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/long_whiskey_141c959ad7ab.wav"
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/voice_pig_body_41b605cb6c77.wav"
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/voice_ryan_hello_7d40667033a9.wav"
+      },
+      {
+        "sound_id": "alu",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/alu_8d4496ed0135.wav"
+      },
+      {
+        "sound_id": "ave_verum_corpus",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/ave_verum_corpus_ce9b6b915472.wav"
+      },
+      {
+        "sound_id": "birds",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/birds_cb0a9e596e9b.wav"
+      },
+      {
+        "sound_id": "construction",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/construction_906c0e70ac6b.wav"
+      },
+      {
+        "sound_id": "dawnenemy",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/dawnenemy_17a75fab93f9.wav"
+      },
+      {
+        "sound_id": "faith1",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/faith1_d513a47295ce.wav"
+      },
+      {
+        "sound_id": "faith2",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/faith2_f9c4329d99ae.wav"
+      },
+      {
+        "sound_id": "faith3",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/faith3_f5ab8343b553.wav"
+      },
+      {
+        "sound_id": "fire",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/fire_2c829176b487.wav"
+      },
+      {
+        "sound_id": "ghostmonster1",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/ghostmonster1_2f1aa560747d.wav"
+      },
+      {
+        "sound_id": "ghostmonster2",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/ghostmonster2_d6c29bdebf94.wav"
+      },
+      {
+        "sound_id": "ghostmonster3",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/ghostmonster3_0a5ea4bb3a6a.wav"
+      },
+      {
+        "sound_id": "ghostmonster4",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/ghostmonster4_b53633b86c76.wav"
+      },
+      {
+        "sound_id": "hell",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/hell_5eea1745cdb3.wav"
+      },
+      {
+        "sound_id": "its_a_fine_day",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/its_a_fine_day_c766e7c8b004.wav"
+      },
+      {
+        "sound_id": "mantra",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/mantra_6cf35e82344a.wav"
+      },
+      {
+        "sound_id": "neverhood1",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/neverhood1_42b29602fd1d.wav"
+      },
+      {
+        "sound_id": "neverhood2",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/neverhood2_7ab75e41479d.wav"
+      },
+      {
+        "sound_id": "oddity1",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/oddity1_351f4ca60424.wav"
+      },
+      {
+        "sound_id": "oddity2",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/oddity2_9ba66beb6059.wav"
+      },
+      {
+        "sound_id": "prompt1",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/prompt1_8b0cedae7743.wav"
+      },
+      {
+        "sound_id": "prompt2",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/prompt2_b1ed7529cce5.wav"
+      },
+      {
+        "sound_id": "prompt3",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/prompt3_a17b3a3489a6.wav"
+      },
+      {
+        "sound_id": "prompt4",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/prompt4_65fc177226ae.wav"
+      },
+      {
+        "sound_id": "prowler1",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/prowler1_bc34d37f0a5a.wav"
+      },
+      {
+        "sound_id": "prowler2",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/prowler2_283690f28531.wav"
+      },
+      {
+        "sound_id": "prowler3",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/prowler3_551ea7b234ba.wav"
+      },
+      {
+        "sound_id": "reaper1",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/reaper1_444774accfd8.wav"
+      },
+      {
+        "sound_id": "reaper2",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/reaper2_382cabc991e8.wav"
+      },
+      {
+        "sound_id": "reaper3",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/reaper3_0dc029c98318.wav"
+      },
+      {
+        "sound_id": "safety",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/safety_5984bcdff977.wav"
+      },
+      {
+        "sound_id": "shovel",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/shovel_378eb681ad21.wav"
+      },
+      {
+        "sound_id": "suffering",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/suffering_38ec833beabb.wav"
+      },
+      {
+        "sound_id": "tones",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/tones_e4b0dadbede0.wav"
+      },
+      {
+        "sound_id": "twobytwo",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/twobytwo_393f4b5d23eb.wav"
+      },
+      {
+        "sound_id": "fox",
+        "source": "existing_radio_catalog",
+        "asset_file": "assets/sound/fox_d27ba6a6d033.wav"
       }
     ],
     "EventEntryReferences": [
@@ -3546,49 +4549,1120 @@
         "meaning": "Scenario entry checklist. These rows describe required external entry data and do not define the entry itself."
       }
     ],
-    "SoundBehavior": [],
+    "ChannelBehavior": [
+      {
+        "channel_id": 0,
+        "ambient_multiplier": 1.0,
+        "ambient_gap_min_s": 60.0,
+        "ambient_gap_max_s": 100.0,
+        "ambient_check_interval_s": 10.0
+      }
+    ],
+    "SoundBehavior": [
+      {
+        "sound_id": "ben",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy"
+      },
+      {
+        "sound_id": "ben_laugh",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy"
+      },
+      {
+        "sound_id": "ben_ugh",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy"
+      },
+      {
+        "sound_id": "ben_yes",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy"
+      },
+      {
+        "sound_id": "ben_no",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy"
+      },
+      {
+        "sound_id": "ben_hangup",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy"
+      },
+      {
+        "sound_id": "event_whispering",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 2.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "long_black_slime",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "event_elevator",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "event_circle",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "long_ambienttv",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "event_robotvoice",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "event_breath",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.0,
+        "activity_fade_out_s": 1.0,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "event_footsteps",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "event_moan",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "event_uhoh",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "long_call",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "event_ciocarlia",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 1.0,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "long_whiskey",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "long_voice4",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "voice_imstillhere",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "voice1",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "voice2",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "voice3",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "event_pig_noise",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "event_ingrate",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "long_birthright",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "long_pain",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "voice_devil",
+        "continue_inaudible": false,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "voice_pig_body",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "long_sayings",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "oddity2",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "oddity1",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "prompt1",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "prompt2",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "prompt3",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "prompt4",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "tones",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "construction",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "shovel",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "its_a_fine_day",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "dawnenemy",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "mantra",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "twobytwo",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "ghostmonster1",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.25,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "ghostmonster2",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.25,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "ghostmonster3",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.25,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "creation1",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.25,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "both",
+        "start_outside_activity": false,
+        "voice_ignores_cooldowns": true
+      },
+      {
+        "sound_id": "creation2",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.25,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "both",
+        "start_outside_activity": false,
+        "voice_ignores_cooldowns": true
+      },
+      {
+        "sound_id": "creation4",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.25,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "both",
+        "start_outside_activity": false,
+        "voice_ignores_cooldowns": true
+      },
+      {
+        "sound_id": "fire",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "hell",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "suffering",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "birds",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "scheduled_only",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "safety",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "scheduled_only",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "neverhood1",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "faith1",
+        "continue_inaudible": false,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.33,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "faith2",
+        "continue_inaudible": false,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.0,
+        "selection_weight": 0.33,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "faith3",
+        "continue_inaudible": false,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.33,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "reaper3",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.33,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "reaper2",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.33,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "reaper1",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.33,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "prowler3",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.33,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "prowler2",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.33,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "prowler1",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.33,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "ghostmonster4",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.25,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "creation3",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.25,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "both",
+        "start_outside_activity": false,
+        "voice_ignores_cooldowns": true
+      },
+      {
+        "sound_id": "event_ecto_goggles",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 30.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false
+      },
+      {
+        "sound_id": "fox",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 1.0,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "finish",
+        "trigger_mode": "scheduled_only",
+        "start_outside_activity": true
+      },
+      {
+        "sound_id": "alu",
+        "continue_inaudible": false,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 5.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "ambient",
+        "start_outside_activity": false,
+        "after_finish": "silence_channel_until_retune"
+      },
+      {
+        "sound_id": "ave_verum_corpus",
+        "continue_inaudible": true,
+        "background_triggering": true,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true,
+        "after_finish": "none"
+      },
+      {
+        "sound_id": "neverhood2",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 0.1,
+        "reset_event_timer": true,
+        "personal_cooldown_s": 500.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": true,
+        "after_finish": "none"
+      },
+      {
+        "sound_id": "voice_ryan_hello",
+        "continue_inaudible": true,
+        "background_triggering": false,
+        "activity_fade_in_s": 0.35,
+        "activity_fade_out_s": 0.5,
+        "selection_weight": 1.0,
+        "reset_event_timer": false,
+        "personal_cooldown_s": 0.0,
+        "max_instances": 1,
+        "window_end": "fade",
+        "trigger_mode": "legacy",
+        "start_outside_activity": false,
+        "after_finish": "none"
+      }
+    ],
     "SoundWindows": [],
-    "KeywordBoosts": [],
-    "BroadcastSchedules": [],
-    "BroadcastSettings": [],
-    "ChannelBehavior": []
+    "KeywordBoosts": [
+      {
+        "boost_id": "creation_voice",
+        "enabled": true,
+        "target_type": "pool",
+        "target_id": "creation",
+        "keywords": "creation",
+        "check_mode": "speech",
+        "initial_probability": 0.0,
+        "increment_probability": 0.2,
+        "growth": "exponential",
+        "multiplier": 2.0,
+        "maximum_probability": 1.0,
+        "after_play": "reset",
+        "reset_probability": 0.0,
+        "persistence": "radio_session",
+        "require_activity_for_boost": true,
+        "ambient_uses_boost": false
+      }
+    ],
+    "BroadcastSchedules": [
+      {
+        "schedule_id": "morning_birds",
+        "enabled": true,
+        "channel_id": 7,
+        "sound_ids": "birds",
+        "days": "0,1,2,3,4,5,6",
+        "start_time": "07:00:00",
+        "end_time": "07:07:07",
+        "activity_min": 77,
+        "activity_max": 77,
+        "schedule_probability": 1.0,
+        "playback": "loop",
+        "join": "timeline",
+        "missed_start": "join",
+        "other_sounds": "allow",
+        "duck_gain": 0.25,
+        "end_fade_s": 0.5,
+        "recurrence": "daily",
+        "calendar_date": "2027-08-25",
+        "month": 10,
+        "month_day": 31,
+        "monthly_day": "number",
+        "timezone": "America/Chicago"
+      },
+      {
+        "schedule_id": "fox",
+        "enabled": true,
+        "channel_id": 7,
+        "sound_ids": "fox",
+        "days": "0,1,2,3,4,5,6",
+        "start_time": "07:25:00",
+        "end_time": "07:42:00",
+        "activity_min": 12,
+        "activity_max": 12,
+        "schedule_probability": 1.0,
+        "playback": "loop",
+        "join": "timeline",
+        "missed_start": "join",
+        "other_sounds": "allow",
+        "duck_gain": 0.25,
+        "end_fade_s": 0.5,
+        "recurrence": "daily",
+        "calendar_date": "2027-08-25",
+        "month": 10,
+        "month_day": 31,
+        "monthly_day": "number",
+        "timezone": "America/Chicago"
+      }
+    ],
+    "BroadcastSettings": []
   },
   "assets": {
-    "ben_hangup": {
-      "path": "assets/sound/ben_hangup_8ef192238a1e.wav",
+    "voice1": {
+      "path": "assets/sound/voice1_f922082cfe6c.wav",
       "kind": "sound",
-      "sha256": "8ef192238a1e4c76b5a97ae3dc59b3754364281aa2c3402777ec6d585d5e9f9a",
-      "size": 100282
-    },
-    "ben_no": {
-      "path": "assets/sound/ben_no_5bcd86913594.wav",
-      "kind": "sound",
-      "sha256": "5bcd869135945a6ec3a040e02fa7219bb69c1262ebacfb55b8e6656c4d3ed750",
-      "size": 141162
-    },
-    "ben_yes": {
-      "path": "assets/sound/ben_yes_ce3d0a44070b.wav",
-      "kind": "sound",
-      "sha256": "ce3d0a44070b845c4c2bac90dccaf260a103e3de95002ecc2a425d399c7456e7",
-      "size": 173498
-    },
-    "ben_ugh": {
-      "path": "assets/sound/ben_ugh_df05d0df7fc8.wav",
-      "kind": "sound",
-      "sha256": "df05d0df7fc82460363b0f60f351dfb9410d38c5240091463f480bbe82340292",
-      "size": 166570
-    },
-    "ben_laugh": {
-      "path": "assets/sound/ben_laugh_186bc6902a1b.wav",
-      "kind": "sound",
-      "sha256": "186bc6902a1b29f0b5933f2c0c399fdfd38058c139232370eaa7b53cb9d91fe2",
-      "size": 291294
-    },
-    "ben": {
-      "path": "assets/sound/ben_da17fd6d836e.wav",
-      "kind": "sound",
-      "sha256": "da17fd6d836e8d0a42011d0c71cee274f3687eeba6bfc3ad7ad21d5687a9d54a",
-      "size": 134226
+      "sha256": "f922082cfe6c64670f93930de32b1c6f620723b820f78d16cce42aae72590533",
+      "size": 712584
     },
     "creation4": {
       "path": "assets/sound/creation4_10b3ed213cd5.wav",
@@ -3596,173 +5670,11 @@
       "sha256": "10b3ed213cd59b78b73c9268c2490d7c2c84add55e4865f954f0e61f3ffd5548",
       "size": 1078086
     },
-    "creation3": {
-      "path": "assets/sound/creation3_32b21b0a415a.wav",
+    "event_breath": {
+      "path": "assets/sound/event_breath_e667d666af53.wav",
       "kind": "sound",
-      "sha256": "32b21b0a415a6a72a7543359aab5d616e43bd39f6e6d6f6f55a2a8f5a1826418",
-      "size": 1485878
-    },
-    "creation2": {
-      "path": "assets/sound/creation2_4de789e67176.wav",
-      "kind": "sound",
-      "sha256": "4de789e671763c0bb30e4231dc27e3f15f0389c9844de96eb715da4cf6a24450",
-      "size": 1864546
-    },
-    "creation1": {
-      "path": "assets/sound/creation1_784ffb7e39de.wav",
-      "kind": "sound",
-      "sha256": "784ffb7e39de3c5ca79cbb9eff8053124285fcbb1d36309f0eafe91de4491df3",
-      "size": 1544134
-    },
-    "voice3": {
-      "path": "assets/sound/voice3_5a6b018a7705.wav",
-      "kind": "sound",
-      "sha256": "5a6b018a77056179576843a6220f1e551b8d704bccf0564aa9a8883d358dbb1e",
-      "size": 1159052
-    },
-    "voice2": {
-      "path": "assets/sound/voice2_e7a3de21f091.wav",
-      "kind": "sound",
-      "sha256": "e7a3de21f091756b8999f3889df6104a658ac0a32dbcc397cf79fe2b7189600a",
-      "size": 809108
-    },
-    "voice1": {
-      "path": "assets/sound/voice1_f922082cfe6c.wav",
-      "kind": "sound",
-      "sha256": "f922082cfe6c64670f93930de32b1c6f620723b820f78d16cce42aae72590533",
-      "size": 712584
-    },
-    "voice_ryan_hello": {
-      "path": "assets/sound/voice_ryan_hello_7d40667033a9.wav",
-      "kind": "sound",
-      "sha256": "7d40667033a934d70e694a18dcb078840c4188df524162a261440bd3a01db626",
-      "size": 274318
-    },
-    "voice_pig_body": {
-      "path": "assets/sound/voice_pig_body_41b605cb6c77.wav",
-      "kind": "sound",
-      "sha256": "41b605cb6c7746a16b251d512a57b78d86b3574e51024fa07e3894fbaa20dc41",
-      "size": 693880
-    },
-    "voice_imstillhere": {
-      "path": "assets/sound/voice_imstillhere_53db38eafb51.wav",
-      "kind": "sound",
-      "sha256": "53db38eafb5154e52f2baac29b228c3c3b6b70083548db7fe27226f53e01ff64",
-      "size": 200748
-    },
-    "voice_devil": {
-      "path": "assets/sound/voice_devil_a0a06b5ba053.wav",
-      "kind": "sound",
-      "sha256": "a0a06b5ba053d6275b31029cfeb8e8c0e4f4ce539c787edb9252080161f58500",
-      "size": 621436
-    },
-    "long_whiskey": {
-      "path": "assets/sound/long_whiskey_141c959ad7ab.wav",
-      "kind": "sound",
-      "sha256": "141c959ad7ab0794977c9dd1fec06cdfa4ab1707d10ee6ba5f7c56d0fc74714d",
-      "size": 7771806
-    },
-    "long_voice4": {
-      "path": "assets/sound/long_voice4_8309eae8561a.wav",
-      "kind": "sound",
-      "sha256": "8309eae8561a1f40d1c89448901d071db44c6647e6e6ed2550e76b78b39a3a8e",
-      "size": 3913600
-    },
-    "long_sayings": {
-      "path": "assets/sound/long_sayings_f1debababe1a.wav",
-      "kind": "sound",
-      "sha256": "f1debababe1a4730bf56e17414894b9605c73dea3a90014c1f59bb9c8e1f9cb8",
-      "size": 34992508
-    },
-    "long_pain": {
-      "path": "assets/sound/long_pain_2822037ebe9a.wav",
-      "kind": "sound",
-      "sha256": "2822037ebe9a71107418866b9f08014d3e7ce7756114f82a290867170b48dfd7",
-      "size": 4612688
-    },
-    "long_call": {
-      "path": "assets/sound/long_call_cb009f147a2b.wav",
-      "kind": "sound",
-      "sha256": "cb009f147a2b558550ca6dff1eeda73622a9146a3367e8e52a2206f488460621",
-      "size": 3020192
-    },
-    "long_black_slime": {
-      "path": "assets/sound/long_black_slime_3c97093eadd6.wav",
-      "kind": "sound",
-      "sha256": "3c97093eadd6e117037dbe8b9d007e66ca6dd2f1e72f17ef1da6377a8a549323",
-      "size": 1962028
-    },
-    "long_birthright": {
-      "path": "assets/sound/long_birthright_a3527bf92262.wav",
-      "kind": "sound",
-      "sha256": "a3527bf92262e3bbe0b556e99c00ecdc9461638bfd223c1e83afc1730b01453a",
-      "size": 10551684
-    },
-    "long_ambienttv": {
-      "path": "assets/sound/long_ambienttv_3978e4dc9e2c.wav",
-      "kind": "sound",
-      "sha256": "3978e4dc9e2c931629cc79c23d6cfbbe1b4d604df99074a25dda7a50e9cd0d88",
-      "size": 1596888
-    },
-    "event_whispering": {
-      "path": "assets/sound/event_whispering_4a5424a7df56.wav",
-      "kind": "sound",
-      "sha256": "4a5424a7df5601a938deb8fcdf0478ca197b2b9d2642dd644368934099651d43",
-      "size": 666426
-    },
-    "event_uhoh": {
-      "path": "assets/sound/event_uhoh_fd6e51b3dcad.wav",
-      "kind": "sound",
-      "sha256": "fd6e51b3dcada4ec49a139ac631cbe6f8f691bf95954b72c5fe4845f6e2ad7f9",
-      "size": 50996
-    },
-    "event_robotvoice": {
-      "path": "assets/sound/event_robotvoice_c6c99c14dff5.wav",
-      "kind": "sound",
-      "sha256": "c6c99c14dff5c362f9cd2fb346b14b650932d2292ce09fbf8439a6d5c3fd756a",
-      "size": 16682
-    },
-    "event_pig_noise": {
-      "path": "assets/sound/event_pig_noise_74050278045e.wav",
-      "kind": "sound",
-      "sha256": "74050278045eb8d6447fc76e0a5d0904b9ce65dbf5c92b77ed631a8c0c8754c5",
-      "size": 769684
-    },
-    "event_moan": {
-      "path": "assets/sound/event_moan_711029c5cc12.wav",
-      "kind": "sound",
-      "sha256": "711029c5cc128337ef361a582e2cd14419386fab62bbb3bbb35dda3452cdead2",
-      "size": 903988
-    },
-    "event_ingrate": {
-      "path": "assets/sound/event_ingrate_0cd3ffa446e0.wav",
-      "kind": "sound",
-      "sha256": "0cd3ffa446e0945c98e8deceb88774565a3ec969bc838a2d38086458df743977",
-      "size": 1551078
-    },
-    "event_footsteps": {
-      "path": "assets/sound/event_footsteps_e98ee9b75d84.wav",
-      "kind": "sound",
-      "sha256": "e98ee9b75d843e97bd8cc6650d0dccb2e11c9f214ede98316b8aa1ddd3166199",
-      "size": 74980
-    },
-    "event_elevator": {
-      "path": "assets/sound/event_elevator_ccde9c91cd21.wav",
-      "kind": "sound",
-      "sha256": "ccde9c91cd210916c5d6d8fbfd55e55958bbac2e8b8908b0ce25cf34994ce601",
-      "size": 506676
-    },
-    "event_ecto_goggles": {
-      "path": "assets/sound/event_ecto_goggles_50f58d555528.wav",
-      "kind": "sound",
-      "sha256": "50f58d555528310bf5fef7982faca3d471c437003cccca9945b8fbd1c3275f4d",
-      "size": 800972
-    },
-    "event_circle": {
-      "path": "assets/sound/event_circle_225d295fe93e.wav",
-      "kind": "sound",
-      "sha256": "225d295fe93e48fa062f89942347416a47e320e6a19c8365b715d2000b47b265",
-      "size": 917694
+      "sha256": "e667d666af53967e751becbe527d7b05ead03b8b249980bb56196a20c8c4a78f",
+      "size": 454632
     },
     "event_ciocarlia": {
       "path": "assets/sound/event_ciocarlia_52e9974d5d63.wav",
@@ -3770,11 +5682,425 @@
       "sha256": "52e9974d5d6352bd1109dbaa1fe962615dbba7a201a1b44b94940bc56f027617",
       "size": 3184096
     },
-    "event_breath": {
-      "path": "assets/sound/event_breath_e667d666af53.wav",
+    "event_circle": {
+      "path": "assets/sound/event_circle_225d295fe93e.wav",
       "kind": "sound",
-      "sha256": "e667d666af53967e751becbe527d7b05ead03b8b249980bb56196a20c8c4a78f",
-      "size": 454632
+      "sha256": "225d295fe93e48fa062f89942347416a47e320e6a19c8365b715d2000b47b265",
+      "size": 917694
+    },
+    "event_ecto_goggles": {
+      "path": "assets/sound/event_ecto_goggles_50f58d555528.wav",
+      "kind": "sound",
+      "sha256": "50f58d555528310bf5fef7982faca3d471c437003cccca9945b8fbd1c3275f4d",
+      "size": 800972
+    },
+    "event_elevator": {
+      "path": "assets/sound/event_elevator_ccde9c91cd21.wav",
+      "kind": "sound",
+      "sha256": "ccde9c91cd210916c5d6d8fbfd55e55958bbac2e8b8908b0ce25cf34994ce601",
+      "size": 506676
+    },
+    "event_footsteps": {
+      "path": "assets/sound/event_footsteps_e98ee9b75d84.wav",
+      "kind": "sound",
+      "sha256": "e98ee9b75d843e97bd8cc6650d0dccb2e11c9f214ede98316b8aa1ddd3166199",
+      "size": 74980
+    },
+    "event_ingrate": {
+      "path": "assets/sound/event_ingrate_0cd3ffa446e0.wav",
+      "kind": "sound",
+      "sha256": "0cd3ffa446e0945c98e8deceb88774565a3ec969bc838a2d38086458df743977",
+      "size": 1551078
+    },
+    "event_moan": {
+      "path": "assets/sound/event_moan_711029c5cc12.wav",
+      "kind": "sound",
+      "sha256": "711029c5cc128337ef361a582e2cd14419386fab62bbb3bbb35dda3452cdead2",
+      "size": 903988
+    },
+    "event_pig_noise": {
+      "path": "assets/sound/event_pig_noise_74050278045e.wav",
+      "kind": "sound",
+      "sha256": "74050278045eb8d6447fc76e0a5d0904b9ce65dbf5c92b77ed631a8c0c8754c5",
+      "size": 769684
+    },
+    "event_robotvoice": {
+      "path": "assets/sound/event_robotvoice_c6c99c14dff5.wav",
+      "kind": "sound",
+      "sha256": "c6c99c14dff5c362f9cd2fb346b14b650932d2292ce09fbf8439a6d5c3fd756a",
+      "size": 16682
+    },
+    "event_uhoh": {
+      "path": "assets/sound/event_uhoh_fd6e51b3dcad.wav",
+      "kind": "sound",
+      "sha256": "fd6e51b3dcada4ec49a139ac631cbe6f8f691bf95954b72c5fe4845f6e2ad7f9",
+      "size": 50996
+    },
+    "event_whispering": {
+      "path": "assets/sound/event_whispering_4a5424a7df56.wav",
+      "kind": "sound",
+      "sha256": "4a5424a7df5601a938deb8fcdf0478ca197b2b9d2642dd644368934099651d43",
+      "size": 666426
+    },
+    "long_ambienttv": {
+      "path": "assets/sound/long_ambienttv_3978e4dc9e2c.wav",
+      "kind": "sound",
+      "sha256": "3978e4dc9e2c931629cc79c23d6cfbbe1b4d604df99074a25dda7a50e9cd0d88",
+      "size": 1596888
+    },
+    "long_birthright": {
+      "path": "assets/sound/long_birthright_a3527bf92262.wav",
+      "kind": "sound",
+      "sha256": "a3527bf92262e3bbe0b556e99c00ecdc9461638bfd223c1e83afc1730b01453a",
+      "size": 10551684
+    },
+    "long_black_slime": {
+      "path": "assets/sound/long_black_slime_3c97093eadd6.wav",
+      "kind": "sound",
+      "sha256": "3c97093eadd6e117037dbe8b9d007e66ca6dd2f1e72f17ef1da6377a8a549323",
+      "size": 1962028
+    },
+    "long_call": {
+      "path": "assets/sound/long_call_cb009f147a2b.wav",
+      "kind": "sound",
+      "sha256": "cb009f147a2b558550ca6dff1eeda73622a9146a3367e8e52a2206f488460621",
+      "size": 3020192
+    },
+    "long_pain": {
+      "path": "assets/sound/long_pain_2822037ebe9a.wav",
+      "kind": "sound",
+      "sha256": "2822037ebe9a71107418866b9f08014d3e7ce7756114f82a290867170b48dfd7",
+      "size": 4612688
+    },
+    "long_sayings": {
+      "path": "assets/sound/long_sayings_f1debababe1a.wav",
+      "kind": "sound",
+      "sha256": "f1debababe1a4730bf56e17414894b9605c73dea3a90014c1f59bb9c8e1f9cb8",
+      "size": 34992508
+    },
+    "long_voice4": {
+      "path": "assets/sound/long_voice4_8309eae8561a.wav",
+      "kind": "sound",
+      "sha256": "8309eae8561a1f40d1c89448901d071db44c6647e6e6ed2550e76b78b39a3a8e",
+      "size": 3913600
+    },
+    "long_whiskey": {
+      "path": "assets/sound/long_whiskey_141c959ad7ab.wav",
+      "kind": "sound",
+      "sha256": "141c959ad7ab0794977c9dd1fec06cdfa4ab1707d10ee6ba5f7c56d0fc74714d",
+      "size": 7771806
+    },
+    "voice_devil": {
+      "path": "assets/sound/voice_devil_a0a06b5ba053.wav",
+      "kind": "sound",
+      "sha256": "a0a06b5ba053d6275b31029cfeb8e8c0e4f4ce539c787edb9252080161f58500",
+      "size": 621436
+    },
+    "voice_imstillhere": {
+      "path": "assets/sound/voice_imstillhere_53db38eafb51.wav",
+      "kind": "sound",
+      "sha256": "53db38eafb5154e52f2baac29b228c3c3b6b70083548db7fe27226f53e01ff64",
+      "size": 200748
+    },
+    "voice_pig_body": {
+      "path": "assets/sound/voice_pig_body_41b605cb6c77.wav",
+      "kind": "sound",
+      "sha256": "41b605cb6c7746a16b251d512a57b78d86b3574e51024fa07e3894fbaa20dc41",
+      "size": 693880
+    },
+    "voice_ryan_hello": {
+      "path": "assets/sound/voice_ryan_hello_7d40667033a9.wav",
+      "kind": "sound",
+      "sha256": "7d40667033a934d70e694a18dcb078840c4188df524162a261440bd3a01db626",
+      "size": 274318
+    },
+    "voice2": {
+      "path": "assets/sound/voice2_e7a3de21f091.wav",
+      "kind": "sound",
+      "sha256": "e7a3de21f091756b8999f3889df6104a658ac0a32dbcc397cf79fe2b7189600a",
+      "size": 809108
+    },
+    "voice3": {
+      "path": "assets/sound/voice3_5a6b018a7705.wav",
+      "kind": "sound",
+      "sha256": "5a6b018a77056179576843a6220f1e551b8d704bccf0564aa9a8883d358dbb1e",
+      "size": 1159052
+    },
+    "creation1": {
+      "path": "assets/sound/creation1_784ffb7e39de.wav",
+      "kind": "sound",
+      "sha256": "784ffb7e39de3c5ca79cbb9eff8053124285fcbb1d36309f0eafe91de4491df3",
+      "size": 1544134
+    },
+    "creation2": {
+      "path": "assets/sound/creation2_4de789e67176.wav",
+      "kind": "sound",
+      "sha256": "4de789e671763c0bb30e4231dc27e3f15f0389c9844de96eb715da4cf6a24450",
+      "size": 1864546
+    },
+    "creation3": {
+      "path": "assets/sound/creation3_32b21b0a415a.wav",
+      "kind": "sound",
+      "sha256": "32b21b0a415a6a72a7543359aab5d616e43bd39f6e6d6f6f55a2a8f5a1826418",
+      "size": 1485878
+    },
+    "ben": {
+      "path": "assets/sound/ben_da17fd6d836e.wav",
+      "kind": "sound",
+      "sha256": "da17fd6d836e8d0a42011d0c71cee274f3687eeba6bfc3ad7ad21d5687a9d54a",
+      "size": 134226
+    },
+    "ben_laugh": {
+      "path": "assets/sound/ben_laugh_186bc6902a1b.wav",
+      "kind": "sound",
+      "sha256": "186bc6902a1b29f0b5933f2c0c399fdfd38058c139232370eaa7b53cb9d91fe2",
+      "size": 291294
+    },
+    "ben_ugh": {
+      "path": "assets/sound/ben_ugh_df05d0df7fc8.wav",
+      "kind": "sound",
+      "sha256": "df05d0df7fc82460363b0f60f351dfb9410d38c5240091463f480bbe82340292",
+      "size": 166570
+    },
+    "ben_yes": {
+      "path": "assets/sound/ben_yes_ce3d0a44070b.wav",
+      "kind": "sound",
+      "sha256": "ce3d0a44070b845c4c2bac90dccaf260a103e3de95002ecc2a425d399c7456e7",
+      "size": 173498
+    },
+    "ben_no": {
+      "path": "assets/sound/ben_no_5bcd86913594.wav",
+      "kind": "sound",
+      "sha256": "5bcd869135945a6ec3a040e02fa7219bb69c1262ebacfb55b8e6656c4d3ed750",
+      "size": 141162
+    },
+    "ben_hangup": {
+      "path": "assets/sound/ben_hangup_8ef192238a1e.wav",
+      "kind": "sound",
+      "sha256": "8ef192238a1e4c76b5a97ae3dc59b3754364281aa2c3402777ec6d585d5e9f9a",
+      "size": 100282
+    },
+    "alu": {
+      "path": "assets/sound/alu_8d4496ed0135.wav",
+      "kind": "sound",
+      "sha256": "8d4496ed0135ae1765f5977ae5b37777853ce3a10b9539ead8c114e28bb7df6f",
+      "size": 1950794
+    },
+    "ave_verum_corpus": {
+      "path": "assets/sound/ave_verum_corpus_ce9b6b915472.wav",
+      "kind": "sound",
+      "sha256": "ce9b6b915472492b1d4092d63f96fdab18a7295731012f103a1259b62572270f",
+      "size": 29287564
+    },
+    "birds": {
+      "path": "assets/sound/birds_cb0a9e596e9b.wav",
+      "kind": "sound",
+      "sha256": "cb0a9e596e9b3a2a5a16e7e38b463043c8666098bd80235084b9a6ad73a24994",
+      "size": 35203582
+    },
+    "construction": {
+      "path": "assets/sound/construction_906c0e70ac6b.wav",
+      "kind": "sound",
+      "sha256": "906c0e70ac6b7a6bcb3b79d3ad9df413aa2b5e24458f1f59f79249e7924adb68",
+      "size": 17779796
+    },
+    "dawnenemy": {
+      "path": "assets/sound/dawnenemy_17a75fab93f9.wav",
+      "kind": "sound",
+      "sha256": "17a75fab93f95ef4ad8561dfaf34ca49b6c4ce9ec164b7e00f4ba462eed49661",
+      "size": 7169428
+    },
+    "faith1": {
+      "path": "assets/sound/faith1_d513a47295ce.wav",
+      "kind": "sound",
+      "sha256": "d513a47295ce99c97299c6e817f1bff7a9caf1c05c9b2e76238bd3ab1c5fa4b8",
+      "size": 376486
+    },
+    "faith2": {
+      "path": "assets/sound/faith2_f9c4329d99ae.wav",
+      "kind": "sound",
+      "sha256": "f9c4329d99ae655589061bb2ecd491aaa79a82f990b234be93303798337de303",
+      "size": 463218
+    },
+    "faith3": {
+      "path": "assets/sound/faith3_f5ab8343b553.wav",
+      "kind": "sound",
+      "sha256": "f5ab8343b55396730a477863af951fb6db383a07db2ef82e13726e44ba692131",
+      "size": 369258
+    },
+    "fire": {
+      "path": "assets/sound/fire_2c829176b487.wav",
+      "kind": "sound",
+      "sha256": "2c829176b48709f57c186fa7954995c51f1a954305511baf0bfd527802945cb3",
+      "size": 2678978
+    },
+    "ghostmonster1": {
+      "path": "assets/sound/ghostmonster1_2f1aa560747d.wav",
+      "kind": "sound",
+      "sha256": "2f1aa560747dd7768f76dc7d3b9a2b309daa5df6e848a28f360dca3578d1b48c",
+      "size": 2019450
+    },
+    "ghostmonster2": {
+      "path": "assets/sound/ghostmonster2_d6c29bdebf94.wav",
+      "kind": "sound",
+      "sha256": "d6c29bdebf946390b7ede803b0f01c83697767cb979950d30241b32936a94b66",
+      "size": 1628126
+    },
+    "ghostmonster3": {
+      "path": "assets/sound/ghostmonster3_0a5ea4bb3a6a.wav",
+      "kind": "sound",
+      "sha256": "0a5ea4bb3a6ae547ab6f631032f686ad221d3ebcacda406f574b0f3d653d46be",
+      "size": 1903830
+    },
+    "ghostmonster4": {
+      "path": "assets/sound/ghostmonster4_b53633b86c76.wav",
+      "kind": "sound",
+      "sha256": "b53633b86c765bec09718c5120dc33307905bd7a2c25986bd8331627cce44dbe",
+      "size": 2081706
+    },
+    "hell": {
+      "path": "assets/sound/hell_5eea1745cdb3.wav",
+      "kind": "sound",
+      "sha256": "5eea1745cdb3592ae9f1322bc6aef53b1e3b9ec99e6bc96d963c02a1e95003a9",
+      "size": 12121774
+    },
+    "its_a_fine_day": {
+      "path": "assets/sound/its_a_fine_day_c766e7c8b004.wav",
+      "kind": "sound",
+      "sha256": "c766e7c8b004470e0a7d7566ee5f4e161753077dff852b9b7d35fe988a636c99",
+      "size": 29331450
+    },
+    "mantra": {
+      "path": "assets/sound/mantra_6cf35e82344a.wav",
+      "kind": "sound",
+      "sha256": "6cf35e82344aaaf7de56d5b1c77186e5c76dd494f52d039394001f9112c895a2",
+      "size": 59511574
+    },
+    "neverhood1": {
+      "path": "assets/sound/neverhood1_42b29602fd1d.wav",
+      "kind": "sound",
+      "sha256": "42b29602fd1d7c523e27a1949cd2c96a7c2c17a443cea015b442290251afb476",
+      "size": 3421656
+    },
+    "neverhood1_42b29602fd1d": {
+      "path": "assets/sound/neverhood1_42b29602fd1d_7ab75e41479d.wav",
+      "kind": "sound",
+      "sha256": "7ab75e41479d9b50cfe5ed703fc22721aa225c7854203c0a73d6adb69ce6191c",
+      "size": 17824188
+    },
+    "neverhood2": {
+      "path": "assets/sound/neverhood2_7ab75e41479d.wav",
+      "kind": "sound",
+      "sha256": "7ab75e41479d9b50cfe5ed703fc22721aa225c7854203c0a73d6adb69ce6191c",
+      "size": 17824188
+    },
+    "oddity1": {
+      "path": "assets/sound/oddity1_351f4ca60424.wav",
+      "kind": "sound",
+      "sha256": "351f4ca60424fdb4b6ae48d9988cc1c42c874aaf69664739620032aa49db5923",
+      "size": 6451894
+    },
+    "oddity2": {
+      "path": "assets/sound/oddity2_9ba66beb6059.wav",
+      "kind": "sound",
+      "sha256": "9ba66beb6059707ce5a16831341fe36b15ffc5d155f21d914494b6feb6fb2b9c",
+      "size": 5051066
+    },
+    "prompt1": {
+      "path": "assets/sound/prompt1_8b0cedae7743.wav",
+      "kind": "sound",
+      "sha256": "8b0cedae77434a06fd1f16f66e1d341b4c41b15473b78894ed40e64551bf79d1",
+      "size": 1584346
+    },
+    "prompt2": {
+      "path": "assets/sound/prompt2_b1ed7529cce5.wav",
+      "kind": "sound",
+      "sha256": "b1ed7529cce59c962fb17ac456291d0631171d671b724cb7fc8bbcdb316e855b",
+      "size": 1911998
+    },
+    "prompt3": {
+      "path": "assets/sound/prompt3_a17b3a3489a6.wav",
+      "kind": "sound",
+      "sha256": "a17b3a3489a612238690796a49a13f3ba1e507b4ee5e730dca98e463431a6cbe",
+      "size": 2294254
+    },
+    "prompt4": {
+      "path": "assets/sound/prompt4_65fc177226ae.wav",
+      "kind": "sound",
+      "sha256": "65fc177226aeed875dda404aa1fae36180087f20bc21ed47d2b80865510ba2de",
+      "size": 2389822
+    },
+    "prowler1": {
+      "path": "assets/sound/prowler1_bc34d37f0a5a.wav",
+      "kind": "sound",
+      "sha256": "bc34d37f0a5aac9a5965208fd4b4a62ed55497df59b32312ed10eb220321bda4",
+      "size": 711938
+    },
+    "prowler2": {
+      "path": "assets/sound/prowler2_283690f28531.wav",
+      "kind": "sound",
+      "sha256": "283690f285313c1daefe763aeefd52299d4d2166c34c0fce75672c7c1eb9a3bd",
+      "size": 928706
+    },
+    "prowler3": {
+      "path": "assets/sound/prowler3_551ea7b234ba.wav",
+      "kind": "sound",
+      "sha256": "551ea7b234bae08b73bd11562b0c3d4b60108e2a5e2b6ea079ecc68d4721a9cd",
+      "size": 1023546
+    },
+    "reaper1": {
+      "path": "assets/sound/reaper1_444774accfd8.wav",
+      "kind": "sound",
+      "sha256": "444774accfd84832d550c4f75dab56a2bdbbf12caad1b0ef3318cc86fb1bb3fb",
+      "size": 1049422
+    },
+    "reaper2": {
+      "path": "assets/sound/reaper2_382cabc991e8.wav",
+      "kind": "sound",
+      "sha256": "382cabc991e8a57ff4d2d95dfa72dd02e980ed92348aed8f0dfc4f6a693873a4",
+      "size": 1072730
+    },
+    "reaper3": {
+      "path": "assets/sound/reaper3_0dc029c98318.wav",
+      "kind": "sound",
+      "sha256": "0dc029c98318e1fb86b593658c55083e69655e6700783600bfd9c550a0a1f615",
+      "size": 1014462
+    },
+    "safety": {
+      "path": "assets/sound/safety_5984bcdff977.wav",
+      "kind": "sound",
+      "sha256": "5984bcdff9776bdbe29d65e008c9eff0fadac38ace3ac65e141d3d81f005646d",
+      "size": 53689602
+    },
+    "shovel": {
+      "path": "assets/sound/shovel_378eb681ad21.wav",
+      "kind": "sound",
+      "sha256": "378eb681ad21864519b99df5fd51a41252659f2003305dfd2c91cf567f5775b4",
+      "size": 7746278
+    },
+    "suffering": {
+      "path": "assets/sound/suffering_38ec833beabb.wav",
+      "kind": "sound",
+      "sha256": "38ec833beabb04d52a2b1f151828ece9f90388b081bd1ebdce8350749644c53d",
+      "size": 6325026
+    },
+    "tones": {
+      "path": "assets/sound/tones_e4b0dadbede0.wav",
+      "kind": "sound",
+      "sha256": "e4b0dadbede01c282c0c3289f69d06338b377416c205def3d0df2c0c7cad39d8",
+      "size": 1160910
+    },
+    "twobytwo": {
+      "path": "assets/sound/twobytwo_393f4b5d23eb.wav",
+      "kind": "sound",
+      "sha256": "393f4b5d23eb5384ba169f68bc2b7d114623b2ff64236180e13f8571c89bb285",
+      "size": 5765818
+    },
+    "fox": {
+      "path": "assets/sound/fox_d27ba6a6d033.wav",
+      "kind": "sound",
+      "sha256": "d27ba6a6d033b0b81bb3f561c42742e489f8eadaf081b9a74da08f76bc2a935b",
+      "size": 165998
     }
   },
   "programs": [],
