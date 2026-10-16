@@ -1266,6 +1266,42 @@
         "fade_min_s": 1.0,
         "fade_max_s": 1.5,
         "definition": "Heavier distortions and extra static always applied."
+      },
+      {
+        "profile_id": "old_radio_glitch",
+        "pitch_mode": "subtle_up_or_down",
+        "pitch_ratio_min": 0.97,
+        "pitch_ratio_max": 1.03,
+        "reverse_mode": "off",
+        "reverse_probability": 0.0,
+        "extra_static_mode": "light",
+        "static_probability": 1.0,
+        "fade_mode": "randomized",
+        "fade_min_s": 0.08,
+        "fade_max_s": 0.35,
+        "preserve_speech": true,
+        "radio_glitch": true,
+        "glitch_strength": 0.65,
+        "glitch_scratch_rate": 2.0,
+        "glitch_fade_rate": 0.6
+      },
+      {
+        "profile_id": "warble",
+        "pitch_mode": "off",
+        "pitch_ratio_min": 1.0,
+        "pitch_ratio_max": 1.0,
+        "reverse_mode": "off",
+        "reverse_probability": 0.0,
+        "extra_static_mode": "off",
+        "static_probability": 0.0,
+        "fade_mode": "off",
+        "fade_min_s": 0.0,
+        "fade_max_s": 0.0,
+        "preserve_speech": true,
+        "warble": true,
+        "warble_hz": 5.0,
+        "warble_depth_semitones": 0.35,
+        "warble_irregularity": 0.25
       }
     ],
     "RadioSettings": [
@@ -3514,7 +3550,8 @@
     "SoundWindows": [],
     "KeywordBoosts": [],
     "BroadcastSchedules": [],
-    "BroadcastSettings": []
+    "BroadcastSettings": [],
+    "ChannelBehavior": []
   },
   "assets": {
     "ben_hangup": {
